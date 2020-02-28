@@ -1,1384 +1,1417 @@
-pub const ACCESSIBLE_ICON: char = '\u{f368}';                      // 
-pub const ACCUSOFT: char = '\u{f369}';                             // 
-pub const ACQUISITIONS_INCORPORATED: char = '\u{f6af}';            // 
-pub const AD: char = '\u{f641}';                                   // 
-pub const ADDRESS_BOOK: char = '\u{f2b9}';                         // 
-pub const ADDRESS_CARD: char = '\u{f2bb}';                         // 
-pub const ADJUST: char = '\u{f042}';                               // 
-pub const ADN: char = '\u{f170}';                                  // 
-pub const ADOBE: char = '\u{f778}';                                // 
-pub const ADVERSAL: char = '\u{f36a}';                             // 
-pub const AFFILIATETHEME: char = '\u{f36b}';                       // 
-pub const AIR_FRESHENER: char = '\u{f5d0}';                        // 
-pub const AIRBNB: char = '\u{f834}';                               // 
-pub const ALGOLIA: char = '\u{f36c}';                              // 
-pub const ALIGN_CENTER: char = '\u{f037}';                         // 
-pub const ALIGN_JUSTIFY: char = '\u{f039}';                        // 
-pub const ALIGN_LEFT: char = '\u{f036}';                           // 
-pub const ALIGN_RIGHT: char = '\u{f038}';                          // 
-pub const ALIPAY: char = '\u{f642}';                               // 
-pub const ALLERGIES: char = '\u{f461}';                            // 
-pub const AMAZON: char = '\u{f270}';                               // 
-pub const AMAZON_PAY: char = '\u{f42c}';                           // 
-pub const AMBULANCE: char = '\u{f0f9}';                            // 
-pub const AMERICAN_SIGN_LANGUAGE_INTERPRETING: char = '\u{f2a3}';  // 
-pub const AMILIA: char = '\u{f36d}';                               // 
-pub const ANCHOR: char = '\u{f13d}';                               // 
-pub const ANDROID: char = '\u{f17b}';                              // 
-pub const ANGELLIST: char = '\u{f209}';                            // 
-pub const ANGLE_DOUBLE_DOWN: char = '\u{f103}';                    // 
-pub const ANGLE_DOUBLE_LEFT: char = '\u{f100}';                    // 
-pub const ANGLE_DOUBLE_RIGHT: char = '\u{f101}';                   // 
-pub const ANGLE_DOUBLE_UP: char = '\u{f102}';                      // 
-pub const ANGLE_DOWN: char = '\u{f107}';                           // 
-pub const ANGLE_LEFT: char = '\u{f104}';                           // 
-pub const ANGLE_RIGHT: char = '\u{f105}';                          // 
-pub const ANGLE_UP: char = '\u{f106}';                             // 
-pub const ANGRY: char = '\u{f556}';                                // 
-pub const ANGRYCREATIVE: char = '\u{f36e}';                        // 
-pub const ANGULAR: char = '\u{f420}';                              // 
-pub const ANKH: char = '\u{f644}';                                 // 
-pub const APP_STORE: char = '\u{f36f}';                            // 
-pub const APP_STORE_IOS: char = '\u{f370}';                        // 
-pub const APPER: char = '\u{f371}';                                // 
-pub const APPLE: char = '\u{f179}';                                // 
-pub const APPLE_ALT: char = '\u{f5d1}';                            // 
-pub const APPLE_PAY: char = '\u{f415}';                            // 
-pub const ARCHIVE: char = '\u{f187}';                              // 
-pub const ARCHWAY: char = '\u{f557}';                              // 
-pub const ARROW_ALT_CIRCLE_DOWN: char = '\u{f358}';                // 
-pub const ARROW_ALT_CIRCLE_LEFT: char = '\u{f359}';                // 
-pub const ARROW_ALT_CIRCLE_RIGHT: char = '\u{f35a}';               // 
-pub const ARROW_ALT_CIRCLE_UP: char = '\u{f35b}';                  // 
-pub const ARROW_CIRCLE_DOWN: char = '\u{f0ab}';                    // 
-pub const ARROW_CIRCLE_LEFT: char = '\u{f0a8}';                    // 
-pub const ARROW_CIRCLE_RIGHT: char = '\u{f0a9}';                   // 
-pub const ARROW_CIRCLE_UP: char = '\u{f0aa}';                      // 
-pub const ARROW_DOWN: char = '\u{f063}';                           // 
-pub const ARROW_LEFT: char = '\u{f060}';                           // 
-pub const ARROW_RIGHT: char = '\u{f061}';                          // 
-pub const ARROW_UP: char = '\u{f062}';                             // 
-pub const ARROWS_ALT: char = '\u{f0b2}';                           // 
-pub const ARROWS_ALT_H: char = '\u{f337}';                         // 
-pub const ARROWS_ALT_V: char = '\u{f338}';                         // 
-pub const ARTSTATION: char = '\u{f77a}';                           // 
-pub const ASSISTIVE_LISTENING_SYSTEMS: char = '\u{f2a2}';          // 
-pub const ASTERISK: char = '\u{f069}';                             // 
-pub const ASYMMETRIK: char = '\u{f372}';                           // 
-pub const AT: char = '\u{f1fa}';                                   // 
-pub const ATLAS: char = '\u{f558}';                                // 
-pub const ATLASSIAN: char = '\u{f77b}';                            // 
-pub const ATOM: char = '\u{f5d2}';                                 // 
-pub const AUDIBLE: char = '\u{f373}';                              // 
-pub const AUDIO_DESCRIPTION: char = '\u{f29e}';                    // 
-pub const AUTOPREFIXER: char = '\u{f41c}';                         // 
-pub const AVIANEX: char = '\u{f374}';                              // 
-pub const AVIATO: char = '\u{f421}';                               // 
-pub const AWARD: char = '\u{f559}';                                // 
-pub const AWS: char = '\u{f375}';                                  // 
-pub const BABY: char = '\u{f77c}';                                 // 
-pub const BABY_CARRIAGE: char = '\u{f77d}';                        // 
-pub const BACKSPACE: char = '\u{f55a}';                            // 
-pub const BACKWARD: char = '\u{f04a}';                             // 
-pub const BACON: char = '\u{f7e5}';                                // 
-pub const BALANCE_SCALE: char = '\u{f24e}';                        // 
-pub const BALANCE_SCALE_LEFT: char = '\u{f515}';                   // 
-pub const BALANCE_SCALE_RIGHT: char = '\u{f516}';                  // 
-pub const BAN: char = '\u{f05e}';                                  // 
-pub const BAND_AID: char = '\u{f462}';                             // 
-pub const BANDCAMP: char = '\u{f2d5}';                             // 
-pub const BARCODE: char = '\u{f02a}';                              // 
-pub const BARS: char = '\u{f0c9}';                                 // 
-pub const BASEBALL_BALL: char = '\u{f433}';                        // 
-pub const BASKETBALL_BALL: char = '\u{f434}';                      // 
-pub const BATH: char = '\u{f2cd}';                                 // 
-pub const BATTERY_EMPTY: char = '\u{f244}';                        // 
-pub const BATTERY_FULL: char = '\u{f240}';                         // 
-pub const BATTERY_HALF: char = '\u{f242}';                         // 
-pub const BATTERY_QUARTER: char = '\u{f243}';                      // 
-pub const BATTERY_THREE_QUARTERS: char = '\u{f241}';               // 
-pub const BATTLE_NET: char = '\u{f835}';                           // 
-pub const BED: char = '\u{f236}';                                  // 
-pub const BEER: char = '\u{f0fc}';                                 // 
-pub const BEHANCE: char = '\u{f1b4}';                              // 
-pub const BEHANCE_SQUARE: char = '\u{f1b5}';                       // 
-pub const BELL: char = '\u{f0f3}';                                 // 
-pub const BELL_SLASH: char = '\u{f1f6}';                           // 
-pub const BEZIER_CURVE: char = '\u{f55b}';                         // 
-pub const BIBLE: char = '\u{f647}';                                // 
-pub const BICYCLE: char = '\u{f206}';                              // 
-pub const BIKING: char = '\u{f84a}';                               // 
-pub const BIMOBJECT: char = '\u{f378}';                            // 
-pub const BINOCULARS: char = '\u{f1e5}';                           // 
-pub const BIOHAZARD: char = '\u{f780}';                            // 
-pub const BIRTHDAY_CAKE: char = '\u{f1fd}';                        // 
-pub const BITBUCKET: char = '\u{f171}';                            // 
-pub const BITCOIN: char = '\u{f379}';                              // 
-pub const BITY: char = '\u{f37a}';                                 // 
-pub const BLACK_TIE: char = '\u{f27e}';                            // 
-pub const BLACKBERRY: char = '\u{f37b}';                           // 
-pub const BLENDER: char = '\u{f517}';                              // 
-pub const BLENDER_PHONE: char = '\u{f6b6}';                        // 
-pub const BLIND: char = '\u{f29d}';                                // 
-pub const BLOG: char = '\u{f781}';                                 // 
-pub const BLOGGER: char = '\u{f37c}';                              // 
-pub const BLOGGER_B: char = '\u{f37d}';                            // 
-pub const BLUETOOTH: char = '\u{f293}';                            // 
-pub const BLUETOOTH_B: char = '\u{f294}';                          // 
-pub const BOLD: char = '\u{f032}';                                 // 
-pub const BOLT: char = '\u{f0e7}';                                 // 
-pub const BOMB: char = '\u{f1e2}';                                 // 
-pub const BONE: char = '\u{f5d7}';                                 // 
-pub const BONG: char = '\u{f55c}';                                 // 
-pub const BOOK: char = '\u{f02d}';                                 // 
-pub const BOOK_DEAD: char = '\u{f6b7}';                            // 
-pub const BOOK_MEDICAL: char = '\u{f7e6}';                         // 
-pub const BOOK_OPEN: char = '\u{f518}';                            // 
-pub const BOOK_READER: char = '\u{f5da}';                          // 
-pub const BOOKMARK: char = '\u{f02e}';                             // 
-pub const BOOTSTRAP: char = '\u{f836}';                            // 
-pub const BORDER_ALL: char = '\u{f84c}';                           // 
-pub const BORDER_NONE: char = '\u{f850}';                          // 
-pub const BORDER_STYLE: char = '\u{f853}';                         // 
-pub const BOWLING_BALL: char = '\u{f436}';                         // 
-pub const BOX: char = '\u{f466}';                                  // 
-pub const BOX_OPEN: char = '\u{f49e}';                             // 
-pub const BOXES: char = '\u{f468}';                                // 
-pub const BRAILLE: char = '\u{f2a1}';                              // 
-pub const BRAIN: char = '\u{f5dc}';                                // 
-pub const BREAD_SLICE: char = '\u{f7ec}';                          // 
-pub const BRIEFCASE: char = '\u{f0b1}';                            // 
-pub const BRIEFCASE_MEDICAL: char = '\u{f469}';                    // 
-pub const BROADCAST_TOWER: char = '\u{f519}';                      // 
-pub const BROOM: char = '\u{f51a}';                                // 
-pub const BRUSH: char = '\u{f55d}';                                // 
-pub const BTC: char = '\u{f15a}';                                  // 
-pub const BUFFER: char = '\u{f837}';                               // 
-pub const BUG: char = '\u{f188}';                                  // 
-pub const BUILDING: char = '\u{f1ad}';                             // 
-pub const BULLHORN: char = '\u{f0a1}';                             // 
-pub const BULLSEYE: char = '\u{f140}';                             // 
-pub const BURN: char = '\u{f46a}';                                 // 
-pub const BUROMOBELEXPERTE: char = '\u{f37f}';                     // 
-pub const BUS: char = '\u{f207}';                                  // 
-pub const BUS_ALT: char = '\u{f55e}';                              // 
-pub const BUSINESS_TIME: char = '\u{f64a}';                        // 
-pub const BUYSELLADS: char = '\u{f20d}';                           // 
-pub const CALCULATOR: char = '\u{f1ec}';                           // 
-pub const CALENDAR: char = '\u{f133}';                             // 
-pub const CALENDAR_ALT: char = '\u{f073}';                         // 
-pub const CALENDAR_CHECK: char = '\u{f274}';                       // 
-pub const CALENDAR_DAY: char = '\u{f783}';                         // 
-pub const CALENDAR_MINUS: char = '\u{f272}';                       // 
-pub const CALENDAR_PLUS: char = '\u{f271}';                        // 
-pub const CALENDAR_TIMES: char = '\u{f273}';                       // 
-pub const CALENDAR_WEEK: char = '\u{f784}';                        // 
-pub const CAMERA: char = '\u{f030}';                               // 
-pub const CAMERA_RETRO: char = '\u{f083}';                         // 
-pub const CAMPGROUND: char = '\u{f6bb}';                           // 
-pub const CANADIAN_MAPLE_LEAF: char = '\u{f785}';                  // 
-pub const CANDY_CANE: char = '\u{f786}';                           // 
-pub const CANNABIS: char = '\u{f55f}';                             // 
-pub const CAPSULES: char = '\u{f46b}';                             // 
-pub const CAR: char = '\u{f1b9}';                                  // 
-pub const CAR_ALT: char = '\u{f5de}';                              // 
-pub const CAR_BATTERY: char = '\u{f5df}';                          // 
-pub const CAR_CRASH: char = '\u{f5e1}';                            // 
-pub const CAR_SIDE: char = '\u{f5e4}';                             // 
-pub const CARET_DOWN: char = '\u{f0d7}';                           // 
-pub const CARET_LEFT: char = '\u{f0d9}';                           // 
-pub const CARET_RIGHT: char = '\u{f0da}';                          // 
-pub const CARET_SQUARE_DOWN: char = '\u{f150}';                    // 
-pub const CARET_SQUARE_LEFT: char = '\u{f191}';                    // 
-pub const CARET_SQUARE_RIGHT: char = '\u{f152}';                   // 
-pub const CARET_SQUARE_UP: char = '\u{f151}';                      // 
-pub const CARET_UP: char = '\u{f0d8}';                             // 
-pub const CARROT: char = '\u{f787}';                               // 
-pub const CART_ARROW_DOWN: char = '\u{f218}';                      // 
-pub const CART_PLUS: char = '\u{f217}';                            // 
-pub const CASH_REGISTER: char = '\u{f788}';                        // 
-pub const CAT: char = '\u{f6be}';                                  // 
-pub const CC_AMAZON_PAY: char = '\u{f42d}';                        // 
-pub const CC_AMEX: char = '\u{f1f3}';                              // 
-pub const CC_APPLE_PAY: char = '\u{f416}';                         // 
-pub const CC_DINERS_CLUB: char = '\u{f24c}';                       // 
-pub const CC_DISCOVER: char = '\u{f1f2}';                          // 
-pub const CC_JCB: char = '\u{f24b}';                               // 
-pub const CC_MASTERCARD: char = '\u{f1f1}';                        // 
-pub const CC_PAYPAL: char = '\u{f1f4}';                            // 
-pub const CC_STRIPE: char = '\u{f1f5}';                            // 
-pub const CC_VISA: char = '\u{f1f0}';                              // 
-pub const CENTERCODE: char = '\u{f380}';                           // 
-pub const CENTOS: char = '\u{f789}';                               // 
-pub const CERTIFICATE: char = '\u{f0a3}';                          // 
-pub const CHAIR: char = '\u{f6c0}';                                // 
-pub const CHALKBOARD: char = '\u{f51b}';                           // 
-pub const CHALKBOARD_TEACHER: char = '\u{f51c}';                   // 
-pub const CHARGING_STATION: char = '\u{f5e7}';                     // 
-pub const CHART_AREA: char = '\u{f1fe}';                           // 
-pub const CHART_BAR: char = '\u{f080}';                            // 
-pub const CHART_LINE: char = '\u{f201}';                           // 
-pub const CHART_PIE: char = '\u{f200}';                            // 
-pub const CHECK: char = '\u{f00c}';                                // 
-pub const CHECK_CIRCLE: char = '\u{f058}';                         // 
-pub const CHECK_DOUBLE: char = '\u{f560}';                         // 
-pub const CHECK_SQUARE: char = '\u{f14a}';                         // 
-pub const CHEESE: char = '\u{f7ef}';                               // 
-pub const CHESS: char = '\u{f439}';                                // 
-pub const CHESS_BISHOP: char = '\u{f43a}';                         // 
-pub const CHESS_BOARD: char = '\u{f43c}';                          // 
-pub const CHESS_KING: char = '\u{f43f}';                           // 
-pub const CHESS_KNIGHT: char = '\u{f441}';                         // 
-pub const CHESS_PAWN: char = '\u{f443}';                           // 
-pub const CHESS_QUEEN: char = '\u{f445}';                          // 
-pub const CHESS_ROOK: char = '\u{f447}';                           // 
-pub const CHEVRON_CIRCLE_DOWN: char = '\u{f13a}';                  // 
-pub const CHEVRON_CIRCLE_LEFT: char = '\u{f137}';                  // 
-pub const CHEVRON_CIRCLE_RIGHT: char = '\u{f138}';                 // 
-pub const CHEVRON_CIRCLE_UP: char = '\u{f139}';                    // 
-pub const CHEVRON_DOWN: char = '\u{f078}';                         // 
-pub const CHEVRON_LEFT: char = '\u{f053}';                         // 
-pub const CHEVRON_RIGHT: char = '\u{f054}';                        // 
-pub const CHEVRON_UP: char = '\u{f077}';                           // 
-pub const CHILD: char = '\u{f1ae}';                                // 
-pub const CHROME: char = '\u{f268}';                               // 
-pub const CHROMECAST: char = '\u{f838}';                           // 
-pub const CHURCH: char = '\u{f51d}';                               // 
-pub const CIRCLE: char = '\u{f111}';                               // 
-pub const CIRCLE_NOTCH: char = '\u{f1ce}';                         // 
-pub const CITY: char = '\u{f64f}';                                 // 
-pub const CLINIC_MEDICAL: char = '\u{f7f2}';                       // 
-pub const CLIPBOARD: char = '\u{f328}';                            // 
-pub const CLIPBOARD_CHECK: char = '\u{f46c}';                      // 
-pub const CLIPBOARD_LIST: char = '\u{f46d}';                       // 
-pub const CLOCK: char = '\u{f017}';                                // 
-pub const CLONE: char = '\u{f24d}';                                // 
-pub const CLOSED_CAPTIONING: char = '\u{f20a}';                    // 
-pub const CLOUD: char = '\u{f0c2}';                                // 
-pub const CLOUD_DOWNLOAD_ALT: char = '\u{f381}';                   // 
-pub const CLOUD_MEATBALL: char = '\u{f73b}';                       // 
-pub const CLOUD_MOON: char = '\u{f6c3}';                           // 
-pub const CLOUD_MOON_RAIN: char = '\u{f73c}';                      // 
-pub const CLOUD_RAIN: char = '\u{f73d}';                           // 
-pub const CLOUD_SHOWERS_HEAVY: char = '\u{f740}';                  // 
-pub const CLOUD_SUN: char = '\u{f6c4}';                            // 
-pub const CLOUD_SUN_RAIN: char = '\u{f743}';                       // 
-pub const CLOUD_UPLOAD_ALT: char = '\u{f382}';                     // 
-pub const CLOUDSCALE: char = '\u{f383}';                           // 
-pub const CLOUDSMITH: char = '\u{f384}';                           // 
-pub const CLOUDVERSIFY: char = '\u{f385}';                         // 
-pub const COCKTAIL: char = '\u{f561}';                             // 
-pub const CODE: char = '\u{f121}';                                 // 
-pub const CODE_BRANCH: char = '\u{f126}';                          // 
-pub const CODEPEN: char = '\u{f1cb}';                              // 
-pub const CODIEPIE: char = '\u{f284}';                             // 
-pub const COFFEE: char = '\u{f0f4}';                               // 
-pub const COG: char = '\u{f013}';                                  // 
-pub const COGS: char = '\u{f085}';                                 // 
-pub const COINS: char = '\u{f51e}';                                // 
-pub const COLUMNS: char = '\u{f0db}';                              // 
-pub const COMMENT: char = '\u{f075}';                              // 
-pub const COMMENT_ALT: char = '\u{f27a}';                          // 
-pub const COMMENT_DOLLAR: char = '\u{f651}';                       // 
-pub const COMMENT_DOTS: char = '\u{f4ad}';                         // 
-pub const COMMENT_MEDICAL: char = '\u{f7f5}';                      // 
-pub const COMMENT_SLASH: char = '\u{f4b3}';                        // 
-pub const COMMENTS: char = '\u{f086}';                             // 
-pub const COMMENTS_DOLLAR: char = '\u{f653}';                      // 
-pub const COMPACT_DISC: char = '\u{f51f}';                         // 
-pub const COMPASS: char = '\u{f14e}';                              // 
-pub const COMPRESS: char = '\u{f066}';                             // 
-pub const COMPRESS_ARROWS_ALT: char = '\u{f78c}';                  // 
-pub const CONCIERGE_BELL: char = '\u{f562}';                       // 
-pub const CONFLUENCE: char = '\u{f78d}';                           // 
-pub const CONNECTDEVELOP: char = '\u{f20e}';                       // 
-pub const CONTAO: char = '\u{f26d}';                               // 
-pub const COOKIE: char = '\u{f563}';                               // 
-pub const COOKIE_BITE: char = '\u{f564}';                          // 
-pub const COPY: char = '\u{f0c5}';                                 // 
-pub const COPYRIGHT: char = '\u{f1f9}';                            // 
-pub const COTTON_BUREAU: char = '\u{f89e}';                        // 
-pub const COUCH: char = '\u{f4b8}';                                // 
-pub const CPANEL: char = '\u{f388}';                               // 
-pub const CREATIVE_COMMONS: char = '\u{f25e}';                     // 
-pub const CREATIVE_COMMONS_BY: char = '\u{f4e7}';                  // 
-pub const CREATIVE_COMMONS_NC: char = '\u{f4e8}';                  // 
-pub const CREATIVE_COMMONS_NC_EU: char = '\u{f4e9}';               // 
-pub const CREATIVE_COMMONS_NC_JP: char = '\u{f4ea}';               // 
-pub const CREATIVE_COMMONS_ND: char = '\u{f4eb}';                  // 
-pub const CREATIVE_COMMONS_PD: char = '\u{f4ec}';                  // 
-pub const CREATIVE_COMMONS_PD_ALT: char = '\u{f4ed}';              // 
-pub const CREATIVE_COMMONS_REMIX: char = '\u{f4ee}';               // 
-pub const CREATIVE_COMMONS_SA: char = '\u{f4ef}';                  // 
-pub const CREATIVE_COMMONS_SAMPLING: char = '\u{f4f0}';            // 
-pub const CREATIVE_COMMONS_SAMPLING_PLUS: char = '\u{f4f1}';       // 
-pub const CREATIVE_COMMONS_SHARE: char = '\u{f4f2}';               // 
-pub const CREATIVE_COMMONS_ZERO: char = '\u{f4f3}';                // 
-pub const CREDIT_CARD: char = '\u{f09d}';                          // 
-pub const CRITICAL_ROLE: char = '\u{f6c9}';                        // 
-pub const CROP: char = '\u{f125}';                                 // 
-pub const CROP_ALT: char = '\u{f565}';                             // 
-pub const CROSS: char = '\u{f654}';                                // 
-pub const CROSSHAIRS: char = '\u{f05b}';                           // 
-pub const CROW: char = '\u{f520}';                                 // 
-pub const CROWN: char = '\u{f521}';                                // 
-pub const CRUTCH: char = '\u{f7f7}';                               // 
-pub const CSS3: char = '\u{f13c}';                                 // 
-pub const CSS3_ALT: char = '\u{f38b}';                             // 
-pub const CUBE: char = '\u{f1b2}';                                 // 
-pub const CUBES: char = '\u{f1b3}';                                // 
-pub const CUT: char = '\u{f0c4}';                                  // 
-pub const CUTTLEFISH: char = '\u{f38c}';                           // 
-pub const D_AND_D: char = '\u{f38d}';                              // 
-pub const D_AND_D_BEYOND: char = '\u{f6ca}';                       // 
-pub const DASHCUBE: char = '\u{f210}';                             // 
-pub const DATABASE: char = '\u{f1c0}';                             // 
-pub const DEAF: char = '\u{f2a4}';                                 // 
-pub const DELICIOUS: char = '\u{f1a5}';                            // 
-pub const DEMOCRAT: char = '\u{f747}';                             // 
-pub const DEPLOYDOG: char = '\u{f38e}';                            // 
-pub const DESKPRO: char = '\u{f38f}';                              // 
-pub const DESKTOP: char = '\u{f108}';                              // 
-pub const DEV: char = '\u{f6cc}';                                  // 
-pub const DEVIANTART: char = '\u{f1bd}';                           // 
-pub const DHARMACHAKRA: char = '\u{f655}';                         // 
-pub const DHL: char = '\u{f790}';                                  // 
-pub const DIAGNOSES: char = '\u{f470}';                            // 
-pub const DIASPORA: char = '\u{f791}';                             // 
-pub const DICE: char = '\u{f522}';                                 // 
-pub const DICE_D20: char = '\u{f6cf}';                             // 
-pub const DICE_D6: char = '\u{f6d1}';                              // 
-pub const DICE_FIVE: char = '\u{f523}';                            // 
-pub const DICE_FOUR: char = '\u{f524}';                            // 
-pub const DICE_ONE: char = '\u{f525}';                             // 
-pub const DICE_SIX: char = '\u{f526}';                             // 
-pub const DICE_THREE: char = '\u{f527}';                           // 
-pub const DICE_TWO: char = '\u{f528}';                             // 
-pub const DIGG: char = '\u{f1a6}';                                 // 
-pub const DIGITAL_OCEAN: char = '\u{f391}';                        // 
-pub const DIGITAL_TACHOGRAPH: char = '\u{f566}';                   // 
-pub const DIRECTIONS: char = '\u{f5eb}';                           // 
-pub const DISCORD: char = '\u{f392}';                              // 
-pub const DISCOURSE: char = '\u{f393}';                            // 
-pub const DIVIDE: char = '\u{f529}';                               // 
-pub const DIZZY: char = '\u{f567}';                                // 
-pub const DNA: char = '\u{f471}';                                  // 
-pub const DOCHUB: char = '\u{f394}';                               // 
-pub const DOCKER: char = '\u{f395}';                               // 
-pub const DOG: char = '\u{f6d3}';                                  // 
-pub const DOLLAR_SIGN: char = '\u{f155}';                          // 
-pub const DOLLY: char = '\u{f472}';                                // 
-pub const DOLLY_FLATBED: char = '\u{f474}';                        // 
-pub const DONATE: char = '\u{f4b9}';                               // 
-pub const DOOR_CLOSED: char = '\u{f52a}';                          // 
-pub const DOOR_OPEN: char = '\u{f52b}';                            // 
-pub const DOT_CIRCLE: char = '\u{f192}';                           // 
-pub const DOVE: char = '\u{f4ba}';                                 // 
-pub const DOWNLOAD: char = '\u{f019}';                             // 
-pub const DRAFT2DIGITAL: char = '\u{f396}';                        // 
-pub const DRAFTING_COMPASS: char = '\u{f568}';                     // 
-pub const DRAGON: char = '\u{f6d5}';                               // 
-pub const DRAW_POLYGON: char = '\u{f5ee}';                         // 
-pub const DRIBBBLE: char = '\u{f17d}';                             // 
-pub const DRIBBBLE_SQUARE: char = '\u{f397}';                      // 
-pub const DROPBOX: char = '\u{f16b}';                              // 
-pub const DRUM: char = '\u{f569}';                                 // 
-pub const DRUM_STEELPAN: char = '\u{f56a}';                        // 
-pub const DRUMSTICK_BITE: char = '\u{f6d7}';                       // 
-pub const DRUPAL: char = '\u{f1a9}';                               // 
-pub const DUMBBELL: char = '\u{f44b}';                             // 
-pub const DUMPSTER: char = '\u{f793}';                             // 
-pub const DUMPSTER_FIRE: char = '\u{f794}';                        // 
-pub const DUNGEON: char = '\u{f6d9}';                              // 
-pub const DYALOG: char = '\u{f399}';                               // 
-pub const EARLYBIRDS: char = '\u{f39a}';                           // 
-pub const EBAY: char = '\u{f4f4}';                                 // 
-pub const EDGE: char = '\u{f282}';                                 // 
-pub const EDIT: char = '\u{f044}';                                 // 
-pub const EGG: char = '\u{f7fb}';                                  // 
-pub const EJECT: char = '\u{f052}';                                // 
-pub const ELEMENTOR: char = '\u{f430}';                            // 
-pub const ELLIPSIS_H: char = '\u{f141}';                           // 
-pub const ELLIPSIS_V: char = '\u{f142}';                           // 
-pub const ELLO: char = '\u{f5f1}';                                 // 
-pub const EMBER: char = '\u{f423}';                                // 
-pub const EMPIRE: char = '\u{f1d1}';                               // 
-pub const ENVELOPE: char = '\u{f0e0}';                             // 
-pub const ENVELOPE_OPEN: char = '\u{f2b6}';                        // 
-pub const ENVELOPE_OPEN_TEXT: char = '\u{f658}';                   // 
-pub const ENVELOPE_SQUARE: char = '\u{f199}';                      // 
-pub const ENVIRA: char = '\u{f299}';                               // 
-pub const EQUALS: char = '\u{f52c}';                               // 
-pub const ERASER: char = '\u{f12d}';                               // 
-pub const ERLANG: char = '\u{f39d}';                               // 
-pub const ETHEREUM: char = '\u{f42e}';                             // 
-pub const ETHERNET: char = '\u{f796}';                             // 
-pub const ETSY: char = '\u{f2d7}';                                 // 
-pub const EURO_SIGN: char = '\u{f153}';                            // 
-pub const EVERNOTE: char = '\u{f839}';                             // 
-pub const EXCHANGE_ALT: char = '\u{f362}';                         // 
-pub const EXCLAMATION: char = '\u{f12a}';                          // 
-pub const EXCLAMATION_CIRCLE: char = '\u{f06a}';                   // 
-pub const EXCLAMATION_TRIANGLE: char = '\u{f071}';                 // 
-pub const EXPAND: char = '\u{f065}';                               // 
-pub const EXPAND_ARROWS_ALT: char = '\u{f31e}';                    // 
-pub const EXPEDITEDSSL: char = '\u{f23e}';                         // 
-pub const EXTERNAL_LINK_ALT: char = '\u{f35d}';                    // 
-pub const EXTERNAL_LINK_SQUARE_ALT: char = '\u{f360}';             // 
-pub const EYE: char = '\u{f06e}';                                  // 
-pub const EYE_DROPPER: char = '\u{f1fb}';                          // 
-pub const EYE_SLASH: char = '\u{f070}';                            // 
-pub const FACEBOOK: char = '\u{f09a}';                             // 
-pub const FACEBOOK_F: char = '\u{f39e}';                           // 
-pub const FACEBOOK_MESSENGER: char = '\u{f39f}';                   // 
-pub const FACEBOOK_SQUARE: char = '\u{f082}';                      // 
-pub const FAN: char = '\u{f863}';                                  // 
-pub const FANTASY_FLIGHT_GAMES: char = '\u{f6dc}';                 // 
-pub const FAST_BACKWARD: char = '\u{f049}';                        // 
-pub const FAST_FORWARD: char = '\u{f050}';                         // 
-pub const FAX: char = '\u{f1ac}';                                  // 
-pub const FEATHER: char = '\u{f52d}';                              // 
-pub const FEATHER_ALT: char = '\u{f56b}';                          // 
-pub const FEDEX: char = '\u{f797}';                                // 
-pub const FEDORA: char = '\u{f798}';                               // 
-pub const FEMALE: char = '\u{f182}';                               // 
-pub const FIGHTER_JET: char = '\u{f0fb}';                          // 
-pub const FIGMA: char = '\u{f799}';                                // 
-pub const FILE: char = '\u{f15b}';                                 // 
-pub const FILE_ALT: char = '\u{f15c}';                             // 
-pub const FILE_ARCHIVE: char = '\u{f1c6}';                         // 
-pub const FILE_AUDIO: char = '\u{f1c7}';                           // 
-pub const FILE_CODE: char = '\u{f1c9}';                            // 
-pub const FILE_CONTRACT: char = '\u{f56c}';                        // 
-pub const FILE_CSV: char = '\u{f6dd}';                             // 
-pub const FILE_DOWNLOAD: char = '\u{f56d}';                        // 
-pub const FILE_EXCEL: char = '\u{f1c3}';                           // 
-pub const FILE_EXPORT: char = '\u{f56e}';                          // 
-pub const FILE_IMAGE: char = '\u{f1c5}';                           // 
-pub const FILE_IMPORT: char = '\u{f56f}';                          // 
-pub const FILE_INVOICE: char = '\u{f570}';                         // 
-pub const FILE_INVOICE_DOLLAR: char = '\u{f571}';                  // 
-pub const FILE_MEDICAL: char = '\u{f477}';                         // 
-pub const FILE_MEDICAL_ALT: char = '\u{f478}';                     // 
-pub const FILE_PDF: char = '\u{f1c1}';                             // 
-pub const FILE_POWERPOINT: char = '\u{f1c4}';                      // 
-pub const FILE_PRESCRIPTION: char = '\u{f572}';                    // 
-pub const FILE_SIGNATURE: char = '\u{f573}';                       // 
-pub const FILE_UPLOAD: char = '\u{f574}';                          // 
-pub const FILE_VIDEO: char = '\u{f1c8}';                           // 
-pub const FILE_WORD: char = '\u{f1c2}';                            // 
-pub const FILL: char = '\u{f575}';                                 // 
-pub const FILL_DRIP: char = '\u{f576}';                            // 
-pub const FILM: char = '\u{f008}';                                 // 
-pub const FILTER: char = '\u{f0b0}';                               // 
-pub const FINGERPRINT: char = '\u{f577}';                          // 
-pub const FIRE: char = '\u{f06d}';                                 // 
-pub const FIRE_ALT: char = '\u{f7e4}';                             // 
-pub const FIRE_EXTINGUISHER: char = '\u{f134}';                    // 
-pub const FIREFOX: char = '\u{f269}';                              // 
-pub const FIRST_AID: char = '\u{f479}';                            // 
-pub const FIRST_ORDER: char = '\u{f2b0}';                          // 
-pub const FIRST_ORDER_ALT: char = '\u{f50a}';                      // 
-pub const FIRSTDRAFT: char = '\u{f3a1}';                           // 
-pub const FISH: char = '\u{f578}';                                 // 
-pub const FIST_RAISED: char = '\u{f6de}';                          // 
-pub const FLAG: char = '\u{f024}';                                 // 
-pub const FLAG_CHECKERED: char = '\u{f11e}';                       // 
-pub const FLAG_USA: char = '\u{f74d}';                             // 
-pub const FLASK: char = '\u{f0c3}';                                // 
-pub const FLICKR: char = '\u{f16e}';                               // 
-pub const FLIPBOARD: char = '\u{f44d}';                            // 
-pub const FLUSHED: char = '\u{f579}';                              // 
-pub const FLY: char = '\u{f417}';                                  // 
-pub const FOLDER: char = '\u{f07b}';                               // 
-pub const FOLDER_MINUS: char = '\u{f65d}';                         // 
-pub const FOLDER_OPEN: char = '\u{f07c}';                          // 
-pub const FOLDER_PLUS: char = '\u{f65e}';                          // 
-pub const FONT: char = '\u{f031}';                                 // 
-pub const FONT_AWESOME: char = '\u{f2b4}';                         // 
-pub const FONT_AWESOME_ALT: char = '\u{f35c}';                     // 
-pub const FONT_AWESOME_FLAG: char = '\u{f425}';                    // 
-pub const FONT_AWESOME_LOGO_FULL: char = '\u{f4e6}';               // 
-pub const FONTICONS: char = '\u{f280}';                            // 
-pub const FONTICONS_FI: char = '\u{f3a2}';                         // 
-pub const FOOTBALL_BALL: char = '\u{f44e}';                        // 
-pub const FORT_AWESOME: char = '\u{f286}';                         // 
-pub const FORT_AWESOME_ALT: char = '\u{f3a3}';                     // 
-pub const FORUMBEE: char = '\u{f211}';                             // 
-pub const FORWARD: char = '\u{f04e}';                              // 
-pub const FOURSQUARE: char = '\u{f180}';                           // 
-pub const FREE_CODE_CAMP: char = '\u{f2c5}';                       // 
-pub const FREEBSD: char = '\u{f3a4}';                              // 
-pub const FROG: char = '\u{f52e}';                                 // 
-pub const FROWN: char = '\u{f119}';                                // 
-pub const FROWN_OPEN: char = '\u{f57a}';                           // 
-pub const FULCRUM: char = '\u{f50b}';                              // 
-pub const FUNNEL_DOLLAR: char = '\u{f662}';                        // 
-pub const FUTBOL: char = '\u{f1e3}';                               // 
-pub const GALACTIC_REPUBLIC: char = '\u{f50c}';                    // 
-pub const GALACTIC_SENATE: char = '\u{f50d}';                      // 
-pub const GAMEPAD: char = '\u{f11b}';                              // 
-pub const GAS_PUMP: char = '\u{f52f}';                             // 
-pub const GAVEL: char = '\u{f0e3}';                                // 
-pub const GEM: char = '\u{f3a5}';                                  // 
-pub const GENDERLESS: char = '\u{f22d}';                           // 
-pub const GET_POCKET: char = '\u{f265}';                           // 
-pub const GG: char = '\u{f260}';                                   // 
-pub const GG_CIRCLE: char = '\u{f261}';                            // 
-pub const GHOST: char = '\u{f6e2}';                                // 
-pub const GIFT: char = '\u{f06b}';                                 // 
-pub const GIFTS: char = '\u{f79c}';                                // 
-pub const GIT: char = '\u{f1d3}';                                  // 
-pub const GIT_ALT: char = '\u{f841}';                              // 
-pub const GIT_SQUARE: char = '\u{f1d2}';                           // 
-pub const GITHUB: char = '\u{f09b}';                               // 
-pub const GITHUB_ALT: char = '\u{f113}';                           // 
-pub const GITHUB_SQUARE: char = '\u{f092}';                        // 
-pub const GITKRAKEN: char = '\u{f3a6}';                            // 
-pub const GITLAB: char = '\u{f296}';                               // 
-pub const GITTER: char = '\u{f426}';                               // 
-pub const GLASS_CHEERS: char = '\u{f79f}';                         // 
-pub const GLASS_MARTINI: char = '\u{f000}';                        // 
-pub const GLASS_MARTINI_ALT: char = '\u{f57b}';                    // 
-pub const GLASS_WHISKEY: char = '\u{f7a0}';                        // 
-pub const GLASSES: char = '\u{f530}';                              // 
-pub const GLIDE: char = '\u{f2a5}';                                // 
-pub const GLIDE_G: char = '\u{f2a6}';                              // 
-pub const GLOBE: char = '\u{f0ac}';                                // 
-pub const GLOBE_AFRICA: char = '\u{f57c}';                         // 
-pub const GLOBE_AMERICAS: char = '\u{f57d}';                       // 
-pub const GLOBE_ASIA: char = '\u{f57e}';                           // 
-pub const GLOBE_EUROPE: char = '\u{f7a2}';                         // 
-pub const GOFORE: char = '\u{f3a7}';                               // 
-pub const GOLF_BALL: char = '\u{f450}';                            // 
-pub const GOODREADS: char = '\u{f3a8}';                            // 
-pub const GOODREADS_G: char = '\u{f3a9}';                          // 
-pub const GOOGLE: char = '\u{f1a0}';                               // 
-pub const GOOGLE_DRIVE: char = '\u{f3aa}';                         // 
-pub const GOOGLE_PLAY: char = '\u{f3ab}';                          // 
-pub const GOOGLE_PLUS: char = '\u{f2b3}';                          // 
-pub const GOOGLE_PLUS_G: char = '\u{f0d5}';                        // 
-pub const GOOGLE_PLUS_SQUARE: char = '\u{f0d4}';                   // 
-pub const GOOGLE_WALLET: char = '\u{f1ee}';                        // 
-pub const GOPURAM: char = '\u{f664}';                              // 
-pub const GRADUATION_CAP: char = '\u{f19d}';                       // 
-pub const GRATIPAY: char = '\u{f184}';                             // 
-pub const GRAV: char = '\u{f2d6}';                                 // 
-pub const GREATER_THAN: char = '\u{f531}';                         // 
-pub const GREATER_THAN_EQUAL: char = '\u{f532}';                   // 
-pub const GRIMACE: char = '\u{f57f}';                              // 
-pub const GRIN: char = '\u{f580}';                                 // 
-pub const GRIN_ALT: char = '\u{f581}';                             // 
-pub const GRIN_BEAM: char = '\u{f582}';                            // 
-pub const GRIN_BEAM_SWEAT: char = '\u{f583}';                      // 
-pub const GRIN_HEARTS: char = '\u{f584}';                          // 
-pub const GRIN_SQUINT: char = '\u{f585}';                          // 
-pub const GRIN_SQUINT_TEARS: char = '\u{f586}';                    // 
-pub const GRIN_STARS: char = '\u{f587}';                           // 
-pub const GRIN_TEARS: char = '\u{f588}';                           // 
-pub const GRIN_TONGUE: char = '\u{f589}';                          // 
-pub const GRIN_TONGUE_SQUINT: char = '\u{f58a}';                   // 
-pub const GRIN_TONGUE_WINK: char = '\u{f58b}';                     // 
-pub const GRIN_WINK: char = '\u{f58c}';                            // 
-pub const GRIP_HORIZONTAL: char = '\u{f58d}';                      // 
-pub const GRIP_LINES: char = '\u{f7a4}';                           // 
-pub const GRIP_LINES_VERTICAL: char = '\u{f7a5}';                  // 
-pub const GRIP_VERTICAL: char = '\u{f58e}';                        // 
-pub const GRIPFIRE: char = '\u{f3ac}';                             // 
-pub const GRUNT: char = '\u{f3ad}';                                // 
-pub const GUITAR: char = '\u{f7a6}';                               // 
-pub const GULP: char = '\u{f3ae}';                                 // 
-pub const H_SQUARE: char = '\u{f0fd}';                             // 
-pub const HACKER_NEWS: char = '\u{f1d4}';                          // 
-pub const HACKER_NEWS_SQUARE: char = '\u{f3af}';                   // 
-pub const HACKERRANK: char = '\u{f5f7}';                           // 
-pub const HAMBURGER: char = '\u{f805}';                            // 
-pub const HAMMER: char = '\u{f6e3}';                               // 
-pub const HAMSA: char = '\u{f665}';                                // 
-pub const HAND_HOLDING: char = '\u{f4bd}';                         // 
-pub const HAND_HOLDING_HEART: char = '\u{f4be}';                   // 
-pub const HAND_HOLDING_USD: char = '\u{f4c0}';                     // 
-pub const HAND_LIZARD: char = '\u{f258}';                          // 
-pub const HAND_MIDDLE_FINGER: char = '\u{f806}';                   // 
-pub const HAND_PAPER: char = '\u{f256}';                           // 
-pub const HAND_PEACE: char = '\u{f25b}';                           // 
-pub const HAND_POINT_DOWN: char = '\u{f0a7}';                      // 
-pub const HAND_POINT_LEFT: char = '\u{f0a5}';                      // 
-pub const HAND_POINT_RIGHT: char = '\u{f0a4}';                     // 
-pub const HAND_POINT_UP: char = '\u{f0a6}';                        // 
-pub const HAND_POINTER: char = '\u{f25a}';                         // 
-pub const HAND_ROCK: char = '\u{f255}';                            // 
-pub const HAND_SCISSORS: char = '\u{f257}';                        // 
-pub const HAND_SPOCK: char = '\u{f259}';                           // 
-pub const HANDS: char = '\u{f4c2}';                                // 
-pub const HANDS_HELPING: char = '\u{f4c4}';                        // 
-pub const HANDSHAKE: char = '\u{f2b5}';                            // 
-pub const HANUKIAH: char = '\u{f6e6}';                             // 
-pub const HARD_HAT: char = '\u{f807}';                             // 
-pub const HASHTAG: char = '\u{f292}';                              // 
-pub const HAT_WIZARD: char = '\u{f6e8}';                           // 
-pub const HAYKAL: char = '\u{f666}';                               // 
-pub const HDD: char = '\u{f0a0}';                                  // 
-pub const HEADING: char = '\u{f1dc}';                              // 
-pub const HEADPHONES: char = '\u{f025}';                           // 
-pub const HEADPHONES_ALT: char = '\u{f58f}';                       // 
-pub const HEADSET: char = '\u{f590}';                              // 
-pub const HEART: char = '\u{f004}';                                // 
-pub const HEART_BROKEN: char = '\u{f7a9}';                         // 
-pub const HEARTBEAT: char = '\u{f21e}';                            // 
-pub const HELICOPTER: char = '\u{f533}';                           // 
-pub const HIGHLIGHTER: char = '\u{f591}';                          // 
-pub const HIKING: char = '\u{f6ec}';                               // 
-pub const HIPPO: char = '\u{f6ed}';                                // 
-pub const HIPS: char = '\u{f452}';                                 // 
-pub const HIRE_A_HELPER: char = '\u{f3b0}';                        // 
-pub const HISTORY: char = '\u{f1da}';                              // 
-pub const HOCKEY_PUCK: char = '\u{f453}';                          // 
-pub const HOLLY_BERRY: char = '\u{f7aa}';                          // 
-pub const HOME: char = '\u{f015}';                                 // 
-pub const HOOLI: char = '\u{f427}';                                // 
-pub const HORNBILL: char = '\u{f592}';                             // 
-pub const HORSE: char = '\u{f6f0}';                                // 
-pub const HORSE_HEAD: char = '\u{f7ab}';                           // 
-pub const HOSPITAL: char = '\u{f0f8}';                             // 
-pub const HOSPITAL_ALT: char = '\u{f47d}';                         // 
-pub const HOSPITAL_SYMBOL: char = '\u{f47e}';                      // 
-pub const HOT_TUB: char = '\u{f593}';                              // 
-pub const HOTDOG: char = '\u{f80f}';                               // 
-pub const HOTEL: char = '\u{f594}';                                // 
-pub const HOTJAR: char = '\u{f3b1}';                               // 
-pub const HOURGLASS: char = '\u{f254}';                            // 
-pub const HOURGLASS_END: char = '\u{f253}';                        // 
-pub const HOURGLASS_HALF: char = '\u{f252}';                       // 
-pub const HOURGLASS_START: char = '\u{f251}';                      // 
-pub const HOUSE_DAMAGE: char = '\u{f6f1}';                         // 
-pub const HOUZZ: char = '\u{f27c}';                                // 
-pub const HRYVNIA: char = '\u{f6f2}';                              // 
-pub const HTML5: char = '\u{f13b}';                                // 
-pub const HUBSPOT: char = '\u{f3b2}';                              // 
-pub const I_CURSOR: char = '\u{f246}';                             // 
-pub const ICE_CREAM: char = '\u{f810}';                            // 
-pub const ICICLES: char = '\u{f7ad}';                              // 
-pub const ICONS: char = '\u{f86d}';                                // 
-pub const ID_BADGE: char = '\u{f2c1}';                             // 
-pub const ID_CARD: char = '\u{f2c2}';                              // 
-pub const ID_CARD_ALT: char = '\u{f47f}';                          // 
-pub const IGLOO: char = '\u{f7ae}';                                // 
-pub const IMAGE: char = '\u{f03e}';                                // 
-pub const IMAGES: char = '\u{f302}';                               // 
-pub const IMDB: char = '\u{f2d8}';                                 // 
-pub const INBOX: char = '\u{f01c}';                                // 
-pub const INDENT: char = '\u{f03c}';                               // 
-pub const INDUSTRY: char = '\u{f275}';                             // 
-pub const INFINITY: char = '\u{f534}';                             // 
-pub const INFO: char = '\u{f129}';                                 // 
-pub const INFO_CIRCLE: char = '\u{f05a}';                          // 
-pub const INSTAGRAM: char = '\u{f16d}';                            // 
-pub const INTERCOM: char = '\u{f7af}';                             // 
-pub const INTERNET_EXPLORER: char = '\u{f26b}';                    // 
-pub const INVISION: char = '\u{f7b0}';                             // 
-pub const IOXHOST: char = '\u{f208}';                              // 
-pub const ITALIC: char = '\u{f033}';                               // 
-pub const ITCH_IO: char = '\u{f83a}';                              // 
-pub const ITUNES: char = '\u{f3b4}';                               // 
-pub const ITUNES_NOTE: char = '\u{f3b5}';                          // 
-pub const JAVA: char = '\u{f4e4}';                                 // 
-pub const JEDI: char = '\u{f669}';                                 // 
-pub const JEDI_ORDER: char = '\u{f50e}';                           // 
-pub const JENKINS: char = '\u{f3b6}';                              // 
-pub const JIRA: char = '\u{f7b1}';                                 // 
-pub const JOGET: char = '\u{f3b7}';                                // 
-pub const JOINT: char = '\u{f595}';                                // 
-pub const JOOMLA: char = '\u{f1aa}';                               // 
-pub const JOURNAL_WHILLS: char = '\u{f66a}';                       // 
-pub const JS: char = '\u{f3b8}';                                   // 
-pub const JS_SQUARE: char = '\u{f3b9}';                            // 
-pub const JSFIDDLE: char = '\u{f1cc}';                             // 
-pub const KAABA: char = '\u{f66b}';                                // 
-pub const KAGGLE: char = '\u{f5fa}';                               // 
-pub const KEY: char = '\u{f084}';                                  // 
-pub const KEYBASE: char = '\u{f4f5}';                              // 
-pub const KEYBOARD: char = '\u{f11c}';                             // 
-pub const KEYCDN: char = '\u{f3ba}';                               // 
-pub const KHANDA: char = '\u{f66d}';                               // 
-pub const KICKSTARTER: char = '\u{f3bb}';                          // 
-pub const KICKSTARTER_K: char = '\u{f3bc}';                        // 
-pub const KISS: char = '\u{f596}';                                 // 
-pub const KISS_BEAM: char = '\u{f597}';                            // 
-pub const KISS_WINK_HEART: char = '\u{f598}';                      // 
-pub const KIWI_BIRD: char = '\u{f535}';                            // 
-pub const KORVUE: char = '\u{f42f}';                               // 
-pub const LANDMARK: char = '\u{f66f}';                             // 
-pub const LANGUAGE: char = '\u{f1ab}';                             // 
-pub const LAPTOP: char = '\u{f109}';                               // 
-pub const LAPTOP_CODE: char = '\u{f5fc}';                          // 
-pub const LAPTOP_MEDICAL: char = '\u{f812}';                       // 
-pub const LARAVEL: char = '\u{f3bd}';                              // 
-pub const LASTFM: char = '\u{f202}';                               // 
-pub const LASTFM_SQUARE: char = '\u{f203}';                        // 
-pub const LAUGH: char = '\u{f599}';                                // 
-pub const LAUGH_BEAM: char = '\u{f59a}';                           // 
-pub const LAUGH_SQUINT: char = '\u{f59b}';                         // 
-pub const LAUGH_WINK: char = '\u{f59c}';                           // 
-pub const LAYER_GROUP: char = '\u{f5fd}';                          // 
-pub const LEAF: char = '\u{f06c}';                                 // 
-pub const LEANPUB: char = '\u{f212}';                              // 
-pub const LEMON: char = '\u{f094}';                                // 
-pub const LESS: char = '\u{f41d}';                                 // 
-pub const LESS_THAN: char = '\u{f536}';                            // 
-pub const LESS_THAN_EQUAL: char = '\u{f537}';                      // 
-pub const LEVEL_DOWN_ALT: char = '\u{f3be}';                       // 
-pub const LEVEL_UP_ALT: char = '\u{f3bf}';                         // 
-pub const LIFE_RING: char = '\u{f1cd}';                            // 
-pub const LIGHTBULB: char = '\u{f0eb}';                            // 
-pub const LINE: char = '\u{f3c0}';                                 // 
-pub const LINK: char = '\u{f0c1}';                                 // 
-pub const LINKEDIN: char = '\u{f08c}';                             // 
-pub const LINKEDIN_IN: char = '\u{f0e1}';                          // 
-pub const LINODE: char = '\u{f2b8}';                               // 
-pub const LINUX: char = '\u{f17c}';                                // 
-pub const LIRA_SIGN: char = '\u{f195}';                            // 
-pub const LIST: char = '\u{f03a}';                                 // 
-pub const LIST_ALT: char = '\u{f022}';                             // 
-pub const LIST_OL: char = '\u{f0cb}';                              // 
-pub const LIST_UL: char = '\u{f0ca}';                              // 
-pub const LOCATION_ARROW: char = '\u{f124}';                       // 
-pub const LOCK: char = '\u{f023}';                                 // 
-pub const LOCK_OPEN: char = '\u{f3c1}';                            // 
-pub const LONG_ARROW_ALT_DOWN: char = '\u{f309}';                  // 
-pub const LONG_ARROW_ALT_LEFT: char = '\u{f30a}';                  // 
-pub const LONG_ARROW_ALT_RIGHT: char = '\u{f30b}';                 // 
-pub const LONG_ARROW_ALT_UP: char = '\u{f30c}';                    // 
-pub const LOW_VISION: char = '\u{f2a8}';                           // 
-pub const LUGGAGE_CART: char = '\u{f59d}';                         // 
-pub const LYFT: char = '\u{f3c3}';                                 // 
-pub const MAGENTO: char = '\u{f3c4}';                              // 
-pub const MAGIC: char = '\u{f0d0}';                                // 
-pub const MAGNET: char = '\u{f076}';                               // 
-pub const MAIL_BULK: char = '\u{f674}';                            // 
-pub const MAILCHIMP: char = '\u{f59e}';                            // 
-pub const MALE: char = '\u{f183}';                                 // 
-pub const MANDALORIAN: char = '\u{f50f}';                          // 
-pub const MAP: char = '\u{f279}';                                  // 
-pub const MAP_MARKED: char = '\u{f59f}';                           // 
-pub const MAP_MARKED_ALT: char = '\u{f5a0}';                       // 
-pub const MAP_MARKER: char = '\u{f041}';                           // 
-pub const MAP_MARKER_ALT: char = '\u{f3c5}';                       // 
-pub const MAP_PIN: char = '\u{f276}';                              // 
-pub const MAP_SIGNS: char = '\u{f277}';                            // 
-pub const MARKDOWN: char = '\u{f60f}';                             // 
-pub const MARKER: char = '\u{f5a1}';                               // 
-pub const MARS: char = '\u{f222}';                                 // 
-pub const MARS_DOUBLE: char = '\u{f227}';                          // 
-pub const MARS_STROKE: char = '\u{f229}';                          // 
-pub const MARS_STROKE_H: char = '\u{f22b}';                        // 
-pub const MARS_STROKE_V: char = '\u{f22a}';                        // 
-pub const MASK: char = '\u{f6fa}';                                 // 
-pub const MASTODON: char = '\u{f4f6}';                             // 
-pub const MAXCDN: char = '\u{f136}';                               // 
-pub const MEDAL: char = '\u{f5a2}';                                // 
-pub const MEDAPPS: char = '\u{f3c6}';                              // 
-pub const MEDIUM: char = '\u{f23a}';                               // 
-pub const MEDIUM_M: char = '\u{f3c7}';                             // 
-pub const MEDKIT: char = '\u{f0fa}';                               // 
-pub const MEDRT: char = '\u{f3c8}';                                // 
-pub const MEETUP: char = '\u{f2e0}';                               // 
-pub const MEGAPORT: char = '\u{f5a3}';                             // 
-pub const MEH: char = '\u{f11a}';                                  // 
-pub const MEH_BLANK: char = '\u{f5a4}';                            // 
-pub const MEH_ROLLING_EYES: char = '\u{f5a5}';                     // 
-pub const MEMORY: char = '\u{f538}';                               // 
-pub const MENDELEY: char = '\u{f7b3}';                             // 
-pub const MENORAH: char = '\u{f676}';                              // 
-pub const MERCURY: char = '\u{f223}';                              // 
-pub const METEOR: char = '\u{f753}';                               // 
-pub const MICROCHIP: char = '\u{f2db}';                            // 
-pub const MICROPHONE: char = '\u{f130}';                           // 
-pub const MICROPHONE_ALT: char = '\u{f3c9}';                       // 
-pub const MICROPHONE_ALT_SLASH: char = '\u{f539}';                 // 
-pub const MICROPHONE_SLASH: char = '\u{f131}';                     // 
-pub const MICROSCOPE: char = '\u{f610}';                           // 
-pub const MICROSOFT: char = '\u{f3ca}';                            // 
-pub const MINUS: char = '\u{f068}';                                // 
-pub const MINUS_CIRCLE: char = '\u{f056}';                         // 
-pub const MINUS_SQUARE: char = '\u{f146}';                         // 
-pub const MITTEN: char = '\u{f7b5}';                               // 
-pub const MIX: char = '\u{f3cb}';                                  // 
-pub const MIXCLOUD: char = '\u{f289}';                             // 
-pub const MIZUNI: char = '\u{f3cc}';                               // 
-pub const MOBILE: char = '\u{f10b}';                               // 
-pub const MOBILE_ALT: char = '\u{f3cd}';                           // 
-pub const MODX: char = '\u{f285}';                                 // 
-pub const MONERO: char = '\u{f3d0}';                               // 
-pub const MONEY_BILL: char = '\u{f0d6}';                           // 
-pub const MONEY_BILL_ALT: char = '\u{f3d1}';                       // 
-pub const MONEY_BILL_WAVE: char = '\u{f53a}';                      // 
-pub const MONEY_BILL_WAVE_ALT: char = '\u{f53b}';                  // 
-pub const MONEY_CHECK: char = '\u{f53c}';                          // 
-pub const MONEY_CHECK_ALT: char = '\u{f53d}';                      // 
-pub const MONUMENT: char = '\u{f5a6}';                             // 
-pub const MOON: char = '\u{f186}';                                 // 
-pub const MORTAR_PESTLE: char = '\u{f5a7}';                        // 
-pub const MOSQUE: char = '\u{f678}';                               // 
-pub const MOTORCYCLE: char = '\u{f21c}';                           // 
-pub const MOUNTAIN: char = '\u{f6fc}';                             // 
-pub const MOUSE_POINTER: char = '\u{f245}';                        // 
-pub const MUG_HOT: char = '\u{f7b6}';                              // 
-pub const MUSIC: char = '\u{f001}';                                // 
-pub const NAPSTER: char = '\u{f3d2}';                              // 
-pub const NEOS: char = '\u{f612}';                                 // 
-pub const NETWORK_WIRED: char = '\u{f6ff}';                        // 
-pub const NEUTER: char = '\u{f22c}';                               // 
-pub const NEWSPAPER: char = '\u{f1ea}';                            // 
-pub const NIMBLR: char = '\u{f5a8}';                               // 
-pub const NODE: char = '\u{f419}';                                 // 
-pub const NODE_JS: char = '\u{f3d3}';                              // 
-pub const NOT_EQUAL: char = '\u{f53e}';                            // 
-pub const NOTES_MEDICAL: char = '\u{f481}';                        // 
-pub const NPM: char = '\u{f3d4}';                                  // 
-pub const NS8: char = '\u{f3d5}';                                  // 
-pub const NUTRITIONIX: char = '\u{f3d6}';                          // 
-pub const OBJECT_GROUP: char = '\u{f247}';                         // 
-pub const OBJECT_UNGROUP: char = '\u{f248}';                       // 
-pub const ODNOKLASSNIKI: char = '\u{f263}';                        // 
-pub const ODNOKLASSNIKI_SQUARE: char = '\u{f264}';                 // 
-pub const OIL_CAN: char = '\u{f613}';                              // 
-pub const OLD_REPUBLIC: char = '\u{f510}';                         // 
-pub const OM: char = '\u{f679}';                                   // 
-pub const OPENCART: char = '\u{f23d}';                             // 
-pub const OPENID: char = '\u{f19b}';                               // 
-pub const OPERA: char = '\u{f26a}';                                // 
-pub const OPTIN_MONSTER: char = '\u{f23c}';                        // 
-pub const OSI: char = '\u{f41a}';                                  // 
-pub const OTTER: char = '\u{f700}';                                // 
-pub const OUTDENT: char = '\u{f03b}';                              // 
-pub const PAGE4: char = '\u{f3d7}';                                // 
-pub const PAGELINES: char = '\u{f18c}';                            // 
-pub const PAGER: char = '\u{f815}';                                // 
-pub const PAINT_BRUSH: char = '\u{f1fc}';                          // 
-pub const PAINT_ROLLER: char = '\u{f5aa}';                         // 
-pub const PALETTE: char = '\u{f53f}';                              // 
-pub const PALFED: char = '\u{f3d8}';                               // 
-pub const PALLET: char = '\u{f482}';                               // 
-pub const PAPER_PLANE: char = '\u{f1d8}';                          // 
-pub const PAPERCLIP: char = '\u{f0c6}';                            // 
-pub const PARACHUTE_BOX: char = '\u{f4cd}';                        // 
-pub const PARAGRAPH: char = '\u{f1dd}';                            // 
-pub const PARKING: char = '\u{f540}';                              // 
-pub const PASSPORT: char = '\u{f5ab}';                             // 
-pub const PASTAFARIANISM: char = '\u{f67b}';                       // 
-pub const PASTE: char = '\u{f0ea}';                                // 
-pub const PATREON: char = '\u{f3d9}';                              // 
-pub const PAUSE: char = '\u{f04c}';                                // 
-pub const PAUSE_CIRCLE: char = '\u{f28b}';                         // 
-pub const PAW: char = '\u{f1b0}';                                  // 
-pub const PAYPAL: char = '\u{f1ed}';                               // 
-pub const PEACE: char = '\u{f67c}';                                // 
-pub const PEN: char = '\u{f304}';                                  // 
-pub const PEN_ALT: char = '\u{f305}';                              // 
-pub const PEN_FANCY: char = '\u{f5ac}';                            // 
-pub const PEN_NIB: char = '\u{f5ad}';                              // 
-pub const PEN_SQUARE: char = '\u{f14b}';                           // 
-pub const PENCIL_ALT: char = '\u{f303}';                           // 
-pub const PENCIL_RULER: char = '\u{f5ae}';                         // 
-pub const PENNY_ARCADE: char = '\u{f704}';                         // 
-pub const PEOPLE_CARRY: char = '\u{f4ce}';                         // 
-pub const PEPPER_HOT: char = '\u{f816}';                           // 
-pub const PERCENT: char = '\u{f295}';                              // 
-pub const PERCENTAGE: char = '\u{f541}';                           // 
-pub const PERISCOPE: char = '\u{f3da}';                            // 
-pub const PERSON_BOOTH: char = '\u{f756}';                         // 
-pub const PHABRICATOR: char = '\u{f3db}';                          // 
-pub const PHOENIX_FRAMEWORK: char = '\u{f3dc}';                    // 
-pub const PHOENIX_SQUADRON: char = '\u{f511}';                     // 
-pub const PHONE: char = '\u{f095}';                                // 
-pub const PHONE_ALT: char = '\u{f879}';                            // 
-pub const PHONE_SLASH: char = '\u{f3dd}';                          // 
-pub const PHONE_SQUARE: char = '\u{f098}';                         // 
-pub const PHONE_SQUARE_ALT: char = '\u{f87b}';                     // 
-pub const PHONE_VOLUME: char = '\u{f2a0}';                         // 
-pub const PHOTO_VIDEO: char = '\u{f87c}';                          // 
-pub const PHP: char = '\u{f457}';                                  // 
-pub const PIED_PIPER: char = '\u{f2ae}';                           // 
-pub const PIED_PIPER_ALT: char = '\u{f1a8}';                       // 
-pub const PIED_PIPER_HAT: char = '\u{f4e5}';                       // 
-pub const PIED_PIPER_PP: char = '\u{f1a7}';                        // 
-pub const PIGGY_BANK: char = '\u{f4d3}';                           // 
-pub const PILLS: char = '\u{f484}';                                // 
-pub const PINTEREST: char = '\u{f0d2}';                            // 
-pub const PINTEREST_P: char = '\u{f231}';                          // 
-pub const PINTEREST_SQUARE: char = '\u{f0d3}';                     // 
-pub const PIZZA_SLICE: char = '\u{f818}';                          // 
-pub const PLACE_OF_WORSHIP: char = '\u{f67f}';                     // 
-pub const PLANE: char = '\u{f072}';                                // 
-pub const PLANE_ARRIVAL: char = '\u{f5af}';                        // 
-pub const PLANE_DEPARTURE: char = '\u{f5b0}';                      // 
-pub const PLAY: char = '\u{f04b}';                                 // 
-pub const PLAY_CIRCLE: char = '\u{f144}';                          // 
-pub const PLAYSTATION: char = '\u{f3df}';                          // 
-pub const PLUG: char = '\u{f1e6}';                                 // 
-pub const PLUS: char = '\u{f067}';                                 // 
-pub const PLUS_CIRCLE: char = '\u{f055}';                          // 
-pub const PLUS_SQUARE: char = '\u{f0fe}';                          // 
-pub const PODCAST: char = '\u{f2ce}';                              // 
-pub const POLL: char = '\u{f681}';                                 // 
-pub const POLL_H: char = '\u{f682}';                               // 
-pub const POO: char = '\u{f2fe}';                                  // 
-pub const POO_STORM: char = '\u{f75a}';                            // 
-pub const POOP: char = '\u{f619}';                                 // 
-pub const PORTRAIT: char = '\u{f3e0}';                             // 
-pub const POUND_SIGN: char = '\u{f154}';                           // 
-pub const POWER_OFF: char = '\u{f011}';                            // 
-pub const PRAY: char = '\u{f683}';                                 // 
-pub const PRAYING_HANDS: char = '\u{f684}';                        // 
-pub const PRESCRIPTION: char = '\u{f5b1}';                         // 
-pub const PRESCRIPTION_BOTTLE: char = '\u{f485}';                  // 
-pub const PRESCRIPTION_BOTTLE_ALT: char = '\u{f486}';              // 
-pub const PRINT: char = '\u{f02f}';                                // 
-pub const PROCEDURES: char = '\u{f487}';                           // 
-pub const PRODUCT_HUNT: char = '\u{f288}';                         // 
-pub const PROJECT_DIAGRAM: char = '\u{f542}';                      // 
-pub const PUSHED: char = '\u{f3e1}';                               // 
-pub const PUZZLE_PIECE: char = '\u{f12e}';                         // 
-pub const PYTHON: char = '\u{f3e2}';                               // 
-pub const QQ: char = '\u{f1d6}';                                   // 
-pub const QRCODE: char = '\u{f029}';                               // 
-pub const QUESTION: char = '\u{f128}';                             // 
-pub const QUESTION_CIRCLE: char = '\u{f059}';                      // 
-pub const QUIDDITCH: char = '\u{f458}';                            // 
-pub const QUINSCAPE: char = '\u{f459}';                            // 
-pub const QUORA: char = '\u{f2c4}';                                // 
-pub const QUOTE_LEFT: char = '\u{f10d}';                           // 
-pub const QUOTE_RIGHT: char = '\u{f10e}';                          // 
-pub const QURAN: char = '\u{f687}';                                // 
-pub const R_PROJECT: char = '\u{f4f7}';                            // 
-pub const RADIATION: char = '\u{f7b9}';                            // 
-pub const RADIATION_ALT: char = '\u{f7ba}';                        // 
-pub const RAINBOW: char = '\u{f75b}';                              // 
-pub const RANDOM: char = '\u{f074}';                               // 
-pub const RASPBERRY_PI: char = '\u{f7bb}';                         // 
-pub const RAVELRY: char = '\u{f2d9}';                              // 
-pub const REACT: char = '\u{f41b}';                                // 
-pub const REACTEUROPE: char = '\u{f75d}';                          // 
-pub const README: char = '\u{f4d5}';                               // 
-pub const REBEL: char = '\u{f1d0}';                                // 
-pub const RECEIPT: char = '\u{f543}';                              // 
-pub const RECYCLE: char = '\u{f1b8}';                              // 
-pub const RED_RIVER: char = '\u{f3e3}';                            // 
-pub const REDDIT: char = '\u{f1a1}';                               // 
-pub const REDDIT_ALIEN: char = '\u{f281}';                         // 
-pub const REDDIT_SQUARE: char = '\u{f1a2}';                        // 
-pub const REDHAT: char = '\u{f7bc}';                               // 
-pub const REDO: char = '\u{f01e}';                                 // 
-pub const REDO_ALT: char = '\u{f2f9}';                             // 
-pub const REGISTERED: char = '\u{f25d}';                           // 
-pub const REMOVE_FORMAT: char = '\u{f87d}';                        // 
-pub const RENREN: char = '\u{f18b}';                               // 
-pub const REPLY: char = '\u{f3e5}';                                // 
-pub const REPLY_ALL: char = '\u{f122}';                            // 
-pub const REPLYD: char = '\u{f3e6}';                               // 
-pub const REPUBLICAN: char = '\u{f75e}';                           // 
-pub const RESEARCHGATE: char = '\u{f4f8}';                         // 
-pub const RESOLVING: char = '\u{f3e7}';                            // 
-pub const RESTROOM: char = '\u{f7bd}';                             // 
-pub const RETWEET: char = '\u{f079}';                              // 
-pub const REV: char = '\u{f5b2}';                                  // 
-pub const RIBBON: char = '\u{f4d6}';                               // 
-pub const RING: char = '\u{f70b}';                                 // 
-pub const ROAD: char = '\u{f018}';                                 // 
-pub const ROBOT: char = '\u{f544}';                                // 
-pub const ROCKET: char = '\u{f135}';                               // 
-pub const ROCKETCHAT: char = '\u{f3e8}';                           // 
-pub const ROCKRMS: char = '\u{f3e9}';                              // 
-pub const ROUTE: char = '\u{f4d7}';                                // 
-pub const RSS: char = '\u{f09e}';                                  // 
-pub const RSS_SQUARE: char = '\u{f143}';                           // 
-pub const RUBLE_SIGN: char = '\u{f158}';                           // 
-pub const RULER: char = '\u{f545}';                                // 
-pub const RULER_COMBINED: char = '\u{f546}';                       // 
-pub const RULER_HORIZONTAL: char = '\u{f547}';                     // 
-pub const RULER_VERTICAL: char = '\u{f548}';                       // 
-pub const RUNNING: char = '\u{f70c}';                              // 
-pub const RUPEE_SIGN: char = '\u{f156}';                           // 
-pub const SAD_CRY: char = '\u{f5b3}';                              // 
-pub const SAD_TEAR: char = '\u{f5b4}';                             // 
-pub const SAFARI: char = '\u{f267}';                               // 
-pub const SALESFORCE: char = '\u{f83b}';                           // 
-pub const SASS: char = '\u{f41e}';                                 // 
-pub const SATELLITE: char = '\u{f7bf}';                            // 
-pub const SATELLITE_DISH: char = '\u{f7c0}';                       // 
-pub const SAVE: char = '\u{f0c7}';                                 // 
-pub const SCHLIX: char = '\u{f3ea}';                               // 
-pub const SCHOOL: char = '\u{f549}';                               // 
-pub const SCREWDRIVER: char = '\u{f54a}';                          // 
-pub const SCRIBD: char = '\u{f28a}';                               // 
-pub const SCROLL: char = '\u{f70e}';                               // 
-pub const SD_CARD: char = '\u{f7c2}';                              // 
-pub const SEARCH: char = '\u{f002}';                               // 
-pub const SEARCH_DOLLAR: char = '\u{f688}';                        // 
-pub const SEARCH_LOCATION: char = '\u{f689}';                      // 
-pub const SEARCH_MINUS: char = '\u{f010}';                         // 
-pub const SEARCH_PLUS: char = '\u{f00e}';                          // 
-pub const SEARCHENGIN: char = '\u{f3eb}';                          // 
-pub const SEEDLING: char = '\u{f4d8}';                             // 
-pub const SELLCAST: char = '\u{f2da}';                             // 
-pub const SELLSY: char = '\u{f213}';                               // 
-pub const SERVER: char = '\u{f233}';                               // 
-pub const SERVICESTACK: char = '\u{f3ec}';                         // 
-pub const SHAPES: char = '\u{f61f}';                               // 
-pub const SHARE: char = '\u{f064}';                                // 
-pub const SHARE_ALT: char = '\u{f1e0}';                            // 
-pub const SHARE_ALT_SQUARE: char = '\u{f1e1}';                     // 
-pub const SHARE_SQUARE: char = '\u{f14d}';                         // 
-pub const SHEKEL_SIGN: char = '\u{f20b}';                          // 
-pub const SHIELD_ALT: char = '\u{f3ed}';                           // 
-pub const SHIP: char = '\u{f21a}';                                 // 
-pub const SHIPPING_FAST: char = '\u{f48b}';                        // 
-pub const SHIRTSINBULK: char = '\u{f214}';                         // 
-pub const SHOE_PRINTS: char = '\u{f54b}';                          // 
-pub const SHOPPING_BAG: char = '\u{f290}';                         // 
-pub const SHOPPING_BASKET: char = '\u{f291}';                      // 
-pub const SHOPPING_CART: char = '\u{f07a}';                        // 
-pub const SHOPWARE: char = '\u{f5b5}';                             // 
-pub const SHOWER: char = '\u{f2cc}';                               // 
-pub const SHUTTLE_VAN: char = '\u{f5b6}';                          // 
-pub const SIGN: char = '\u{f4d9}';                                 // 
-pub const SIGN_IN_ALT: char = '\u{f2f6}';                          // 
-pub const SIGN_LANGUAGE: char = '\u{f2a7}';                        // 
-pub const SIGN_OUT_ALT: char = '\u{f2f5}';                         // 
-pub const SIGNAL: char = '\u{f012}';                               // 
-pub const SIGNATURE: char = '\u{f5b7}';                            // 
-pub const SIM_CARD: char = '\u{f7c4}';                             // 
-pub const SIMPLYBUILT: char = '\u{f215}';                          // 
-pub const SISTRIX: char = '\u{f3ee}';                              // 
-pub const SITEMAP: char = '\u{f0e8}';                              // 
-pub const SITH: char = '\u{f512}';                                 // 
-pub const SKATING: char = '\u{f7c5}';                              // 
-pub const SKETCH: char = '\u{f7c6}';                               // 
-pub const SKIING: char = '\u{f7c9}';                               // 
-pub const SKIING_NORDIC: char = '\u{f7ca}';                        // 
-pub const SKULL: char = '\u{f54c}';                                // 
-pub const SKULL_CROSSBONES: char = '\u{f714}';                     // 
-pub const SKYATLAS: char = '\u{f216}';                             // 
-pub const SKYPE: char = '\u{f17e}';                                // 
-pub const SLACK: char = '\u{f198}';                                // 
-pub const SLACK_HASH: char = '\u{f3ef}';                           // 
-pub const SLASH: char = '\u{f715}';                                // 
-pub const SLEIGH: char = '\u{f7cc}';                               // 
-pub const SLIDERS_H: char = '\u{f1de}';                            // 
-pub const SLIDESHARE: char = '\u{f1e7}';                           // 
-pub const SMILE: char = '\u{f118}';                                // 
-pub const SMILE_BEAM: char = '\u{f5b8}';                           // 
-pub const SMILE_WINK: char = '\u{f4da}';                           // 
-pub const SMOG: char = '\u{f75f}';                                 // 
-pub const SMOKING: char = '\u{f48d}';                              // 
-pub const SMOKING_BAN: char = '\u{f54d}';                          // 
-pub const SMS: char = '\u{f7cd}';                                  // 
-pub const SNAPCHAT: char = '\u{f2ab}';                             // 
-pub const SNAPCHAT_GHOST: char = '\u{f2ac}';                       // 
-pub const SNAPCHAT_SQUARE: char = '\u{f2ad}';                      // 
-pub const SNOWBOARDING: char = '\u{f7ce}';                         // 
-pub const SNOWFLAKE: char = '\u{f2dc}';                            // 
-pub const SNOWMAN: char = '\u{f7d0}';                              // 
-pub const SNOWPLOW: char = '\u{f7d2}';                             // 
-pub const SOCKS: char = '\u{f696}';                                // 
-pub const SOLAR_PANEL: char = '\u{f5ba}';                          // 
-pub const SORT: char = '\u{f0dc}';                                 // 
-pub const SORT_ALPHA_DOWN: char = '\u{f15d}';                      // 
-pub const SORT_ALPHA_DOWN_ALT: char = '\u{f881}';                  // 
-pub const SORT_ALPHA_UP: char = '\u{f15e}';                        // 
-pub const SORT_ALPHA_UP_ALT: char = '\u{f882}';                    // 
-pub const SORT_AMOUNT_DOWN: char = '\u{f160}';                     // 
-pub const SORT_AMOUNT_DOWN_ALT: char = '\u{f884}';                 // 
-pub const SORT_AMOUNT_UP: char = '\u{f161}';                       // 
-pub const SORT_AMOUNT_UP_ALT: char = '\u{f885}';                   // 
-pub const SORT_DOWN: char = '\u{f0dd}';                            // 
-pub const SORT_NUMERIC_DOWN: char = '\u{f162}';                    // 
-pub const SORT_NUMERIC_DOWN_ALT: char = '\u{f886}';                // 
-pub const SORT_NUMERIC_UP: char = '\u{f163}';                      // 
-pub const SORT_NUMERIC_UP_ALT: char = '\u{f887}';                  // 
-pub const SORT_UP: char = '\u{f0de}';                              // 
-pub const SOUNDCLOUD: char = '\u{f1be}';                           // 
-pub const SOURCETREE: char = '\u{f7d3}';                           // 
-pub const SPA: char = '\u{f5bb}';                                  // 
-pub const SPACE_SHUTTLE: char = '\u{f197}';                        // 
-pub const SPEAKAP: char = '\u{f3f3}';                              // 
-pub const SPEAKER_DECK: char = '\u{f83c}';                         // 
-pub const SPELL_CHECK: char = '\u{f891}';                          // 
-pub const SPIDER: char = '\u{f717}';                               // 
-pub const SPINNER: char = '\u{f110}';                              // 
-pub const SPLOTCH: char = '\u{f5bc}';                              // 
-pub const SPOTIFY: char = '\u{f1bc}';                              // 
-pub const SPRAY_CAN: char = '\u{f5bd}';                            // 
-pub const SQUARE: char = '\u{f0c8}';                               // 
-pub const SQUARE_FULL: char = '\u{f45c}';                          // 
-pub const SQUARE_ROOT_ALT: char = '\u{f698}';                      // 
-pub const SQUARESPACE: char = '\u{f5be}';                          // 
-pub const STACK_EXCHANGE: char = '\u{f18d}';                       // 
-pub const STACK_OVERFLOW: char = '\u{f16c}';                       // 
-pub const STACKPATH: char = '\u{f842}';                            // 
-pub const STAMP: char = '\u{f5bf}';                                // 
-pub const STAR: char = '\u{f005}';                                 // 
-pub const STAR_AND_CRESCENT: char = '\u{f699}';                    // 
-pub const STAR_HALF: char = '\u{f089}';                            // 
-pub const STAR_HALF_ALT: char = '\u{f5c0}';                        // 
-pub const STAR_OF_DAVID: char = '\u{f69a}';                        // 
-pub const STAR_OF_LIFE: char = '\u{f621}';                         // 
-pub const STAYLINKED: char = '\u{f3f5}';                           // 
-pub const STEAM: char = '\u{f1b6}';                                // 
-pub const STEAM_SQUARE: char = '\u{f1b7}';                         // 
-pub const STEAM_SYMBOL: char = '\u{f3f6}';                         // 
-pub const STEP_BACKWARD: char = '\u{f048}';                        // 
-pub const STEP_FORWARD: char = '\u{f051}';                         // 
-pub const STETHOSCOPE: char = '\u{f0f1}';                          // 
-pub const STICKER_MULE: char = '\u{f3f7}';                         // 
-pub const STICKY_NOTE: char = '\u{f249}';                          // 
-pub const STOP: char = '\u{f04d}';                                 // 
-pub const STOP_CIRCLE: char = '\u{f28d}';                          // 
-pub const STOPWATCH: char = '\u{f2f2}';                            // 
-pub const STORE: char = '\u{f54e}';                                // 
-pub const STORE_ALT: char = '\u{f54f}';                            // 
-pub const STRAVA: char = '\u{f428}';                               // 
-pub const STREAM: char = '\u{f550}';                               // 
-pub const STREET_VIEW: char = '\u{f21d}';                          // 
-pub const STRIKETHROUGH: char = '\u{f0cc}';                        // 
-pub const STRIPE: char = '\u{f429}';                               // 
-pub const STRIPE_S: char = '\u{f42a}';                             // 
-pub const STROOPWAFEL: char = '\u{f551}';                          // 
-pub const STUDIOVINARI: char = '\u{f3f8}';                         // 
-pub const STUMBLEUPON: char = '\u{f1a4}';                          // 
-pub const STUMBLEUPON_CIRCLE: char = '\u{f1a3}';                   // 
-pub const SUBSCRIPT: char = '\u{f12c}';                            // 
-pub const SUBWAY: char = '\u{f239}';                               // 
-pub const SUITCASE: char = '\u{f0f2}';                             // 
-pub const SUITCASE_ROLLING: char = '\u{f5c1}';                     // 
-pub const SUN: char = '\u{f185}';                                  // 
-pub const SUPERPOWERS: char = '\u{f2dd}';                          // 
-pub const SUPERSCRIPT: char = '\u{f12b}';                          // 
-pub const SUPPLE: char = '\u{f3f9}';                               // 
-pub const SURPRISE: char = '\u{f5c2}';                             // 
-pub const SUSE: char = '\u{f7d6}';                                 // 
-pub const SWATCHBOOK: char = '\u{f5c3}';                           // 
-pub const SWIMMER: char = '\u{f5c4}';                              // 
-pub const SWIMMING_POOL: char = '\u{f5c5}';                        // 
-pub const SYMFONY: char = '\u{f83d}';                              // 
-pub const SYNAGOGUE: char = '\u{f69b}';                            // 
-pub const SYNC: char = '\u{f021}';                                 // 
-pub const SYNC_ALT: char = '\u{f2f1}';                             // 
-pub const SYRINGE: char = '\u{f48e}';                              // 
-pub const TABLE: char = '\u{f0ce}';                                // 
-pub const TABLE_TENNIS: char = '\u{f45d}';                         // 
-pub const TABLET: char = '\u{f10a}';                               // 
-pub const TABLET_ALT: char = '\u{f3fa}';                           // 
-pub const TABLETS: char = '\u{f490}';                              // 
-pub const TACHOMETER_ALT: char = '\u{f3fd}';                       // 
-pub const TAG: char = '\u{f02b}';                                  // 
-pub const TAGS: char = '\u{f02c}';                                 // 
-pub const TAPE: char = '\u{f4db}';                                 // 
-pub const TASKS: char = '\u{f0ae}';                                // 
-pub const TAXI: char = '\u{f1ba}';                                 // 
-pub const TEAMSPEAK: char = '\u{f4f9}';                            // 
-pub const TEETH: char = '\u{f62e}';                                // 
-pub const TEETH_OPEN: char = '\u{f62f}';                           // 
-pub const TELEGRAM: char = '\u{f2c6}';                             // 
-pub const TELEGRAM_PLANE: char = '\u{f3fe}';                       // 
-pub const TEMPERATURE_HIGH: char = '\u{f769}';                     // 
-pub const TEMPERATURE_LOW: char = '\u{f76b}';                      // 
-pub const TENCENT_WEIBO: char = '\u{f1d5}';                        // 
-pub const TENGE: char = '\u{f7d7}';                                // 
-pub const TERMINAL: char = '\u{f120}';                             // 
-pub const TEXT_HEIGHT: char = '\u{f034}';                          // 
-pub const TEXT_WIDTH: char = '\u{f035}';                           // 
-pub const TH: char = '\u{f00a}';                                   // 
-pub const TH_LARGE: char = '\u{f009}';                             // 
-pub const TH_LIST: char = '\u{f00b}';                              // 
-pub const THE_RED_YETI: char = '\u{f69d}';                         // 
-pub const THEATER_MASKS: char = '\u{f630}';                        // 
-pub const THEMECO: char = '\u{f5c6}';                              // 
-pub const THEMEISLE: char = '\u{f2b2}';                            // 
-pub const THERMOMETER: char = '\u{f491}';                          // 
-pub const THERMOMETER_EMPTY: char = '\u{f2cb}';                    // 
-pub const THERMOMETER_FULL: char = '\u{f2c7}';                     // 
-pub const THERMOMETER_HALF: char = '\u{f2c9}';                     // 
-pub const THERMOMETER_QUARTER: char = '\u{f2ca}';                  // 
-pub const THERMOMETER_THREE_QUARTERS: char = '\u{f2c8}';           // 
-pub const THINK_PEAKS: char = '\u{f731}';                          // 
-pub const THUMBS_DOWN: char = '\u{f165}';                          // 
-pub const THUMBS_UP: char = '\u{f164}';                            // 
-pub const THUMBTACK: char = '\u{f08d}';                            // 
-pub const TICKET_ALT: char = '\u{f3ff}';                           // 
-pub const TIMES: char = '\u{f00d}';                                // 
-pub const TIMES_CIRCLE: char = '\u{f057}';                         // 
-pub const TINT: char = '\u{f043}';                                 // 
-pub const TINT_SLASH: char = '\u{f5c7}';                           // 
-pub const TIRED: char = '\u{f5c8}';                                // 
-pub const TOGGLE_OFF: char = '\u{f204}';                           // 
-pub const TOGGLE_ON: char = '\u{f205}';                            // 
-pub const TOILET: char = '\u{f7d8}';                               // 
-pub const TOILET_PAPER: char = '\u{f71e}';                         // 
-pub const TOOLBOX: char = '\u{f552}';                              // 
-pub const TOOLS: char = '\u{f7d9}';                                // 
-pub const TOOTH: char = '\u{f5c9}';                                // 
-pub const TORAH: char = '\u{f6a0}';                                // 
-pub const TORII_GATE: char = '\u{f6a1}';                           // 
-pub const TRACTOR: char = '\u{f722}';                              // 
-pub const TRADE_FEDERATION: char = '\u{f513}';                     // 
-pub const TRADEMARK: char = '\u{f25c}';                            // 
-pub const TRAFFIC_LIGHT: char = '\u{f637}';                        // 
-pub const TRAIN: char = '\u{f238}';                                // 
-pub const TRAM: char = '\u{f7da}';                                 // 
-pub const TRANSGENDER: char = '\u{f224}';                          // 
-pub const TRANSGENDER_ALT: char = '\u{f225}';                      // 
-pub const TRASH: char = '\u{f1f8}';                                // 
-pub const TRASH_ALT: char = '\u{f2ed}';                            // 
-pub const TRASH_RESTORE: char = '\u{f829}';                        // 
-pub const TRASH_RESTORE_ALT: char = '\u{f82a}';                    // 
-pub const TREE: char = '\u{f1bb}';                                 // 
-pub const TRELLO: char = '\u{f181}';                               // 
-pub const TRIPADVISOR: char = '\u{f262}';                          // 
-pub const TROPHY: char = '\u{f091}';                               // 
-pub const TRUCK: char = '\u{f0d1}';                                // 
-pub const TRUCK_LOADING: char = '\u{f4de}';                        // 
-pub const TRUCK_MONSTER: char = '\u{f63b}';                        // 
-pub const TRUCK_MOVING: char = '\u{f4df}';                         // 
-pub const TRUCK_PICKUP: char = '\u{f63c}';                         // 
-pub const TSHIRT: char = '\u{f553}';                               // 
-pub const TTY: char = '\u{f1e4}';                                  // 
-pub const TUMBLR: char = '\u{f173}';                               // 
-pub const TUMBLR_SQUARE: char = '\u{f174}';                        // 
-pub const TV: char = '\u{f26c}';                                   // 
-pub const TWITCH: char = '\u{f1e8}';                               // 
-pub const TWITTER: char = '\u{f099}';                              // 
-pub const TWITTER_SQUARE: char = '\u{f081}';                       // 
-pub const TYPO3: char = '\u{f42b}';                                // 
-pub const UBER: char = '\u{f402}';                                 // 
-pub const UBUNTU: char = '\u{f7df}';                               // 
-pub const UIKIT: char = '\u{f403}';                                // 
-pub const UMBRELLA: char = '\u{f0e9}';                             // 
-pub const UMBRELLA_BEACH: char = '\u{f5ca}';                       // 
-pub const UNDERLINE: char = '\u{f0cd}';                            // 
-pub const UNDO: char = '\u{f0e2}';                                 // 
-pub const UNDO_ALT: char = '\u{f2ea}';                             // 
-pub const UNIREGISTRY: char = '\u{f404}';                          // 
-pub const UNIVERSAL_ACCESS: char = '\u{f29a}';                     // 
-pub const UNIVERSITY: char = '\u{f19c}';                           // 
-pub const UNLINK: char = '\u{f127}';                               // 
-pub const UNLOCK: char = '\u{f09c}';                               // 
-pub const UNLOCK_ALT: char = '\u{f13e}';                           // 
-pub const UNTAPPD: char = '\u{f405}';                              // 
-pub const UPLOAD: char = '\u{f093}';                               // 
-pub const UPS: char = '\u{f7e0}';                                  // 
-pub const USB: char = '\u{f287}';                                  // 
-pub const USER: char = '\u{f007}';                                 // 
-pub const USER_ALT: char = '\u{f406}';                             // 
-pub const USER_ALT_SLASH: char = '\u{f4fa}';                       // 
-pub const USER_ASTRONAUT: char = '\u{f4fb}';                       // 
-pub const USER_CHECK: char = '\u{f4fc}';                           // 
-pub const USER_CIRCLE: char = '\u{f2bd}';                          // 
-pub const USER_CLOCK: char = '\u{f4fd}';                           // 
-pub const USER_COG: char = '\u{f4fe}';                             // 
-pub const USER_EDIT: char = '\u{f4ff}';                            // 
-pub const USER_FRIENDS: char = '\u{f500}';                         // 
-pub const USER_GRADUATE: char = '\u{f501}';                        // 
-pub const USER_INJURED: char = '\u{f728}';                         // 
-pub const USER_LOCK: char = '\u{f502}';                            // 
-pub const USER_MD: char = '\u{f0f0}';                              // 
-pub const USER_MINUS: char = '\u{f503}';                           // 
-pub const USER_NINJA: char = '\u{f504}';                           // 
-pub const USER_NURSE: char = '\u{f82f}';                           // 
-pub const USER_PLUS: char = '\u{f234}';                            // 
-pub const USER_SECRET: char = '\u{f21b}';                          // 
-pub const USER_SHIELD: char = '\u{f505}';                          // 
-pub const USER_SLASH: char = '\u{f506}';                           // 
-pub const USER_TAG: char = '\u{f507}';                             // 
-pub const USER_TIE: char = '\u{f508}';                             // 
-pub const USER_TIMES: char = '\u{f235}';                           // 
-pub const USERS: char = '\u{f0c0}';                                // 
-pub const USERS_COG: char = '\u{f509}';                            // 
-pub const USPS: char = '\u{f7e1}';                                 // 
-pub const USSUNNAH: char = '\u{f407}';                             // 
-pub const UTENSIL_SPOON: char = '\u{f2e5}';                        // 
-pub const UTENSILS: char = '\u{f2e7}';                             // 
-pub const VAADIN: char = '\u{f408}';                               // 
-pub const VECTOR_SQUARE: char = '\u{f5cb}';                        // 
-pub const VENUS: char = '\u{f221}';                                // 
-pub const VENUS_DOUBLE: char = '\u{f226}';                         // 
-pub const VENUS_MARS: char = '\u{f228}';                           // 
-pub const VIACOIN: char = '\u{f237}';                              // 
-pub const VIADEO: char = '\u{f2a9}';                               // 
-pub const VIADEO_SQUARE: char = '\u{f2aa}';                        // 
-pub const VIAL: char = '\u{f492}';                                 // 
-pub const VIALS: char = '\u{f493}';                                // 
-pub const VIBER: char = '\u{f409}';                                // 
-pub const VIDEO: char = '\u{f03d}';                                // 
-pub const VIDEO_SLASH: char = '\u{f4e2}';                          // 
-pub const VIHARA: char = '\u{f6a7}';                               // 
-pub const VIMEO: char = '\u{f40a}';                                // 
-pub const VIMEO_SQUARE: char = '\u{f194}';                         // 
-pub const VIMEO_V: char = '\u{f27d}';                              // 
-pub const VINE: char = '\u{f1ca}';                                 // 
-pub const VK: char = '\u{f189}';                                   // 
-pub const VNV: char = '\u{f40b}';                                  // 
-pub const VOICEMAIL: char = '\u{f897}';                            // 
-pub const VOLLEYBALL_BALL: char = '\u{f45f}';                      // 
-pub const VOLUME_DOWN: char = '\u{f027}';                          // 
-pub const VOLUME_MUTE: char = '\u{f6a9}';                          // 
-pub const VOLUME_OFF: char = '\u{f026}';                           // 
-pub const VOLUME_UP: char = '\u{f028}';                            // 
-pub const VOTE_YEA: char = '\u{f772}';                             // 
-pub const VR_CARDBOARD: char = '\u{f729}';                         // 
-pub const VUEJS: char = '\u{f41f}';                                // 
-pub const WALKING: char = '\u{f554}';                              // 
-pub const WALLET: char = '\u{f555}';                               // 
-pub const WAREHOUSE: char = '\u{f494}';                            // 
-pub const WATER: char = '\u{f773}';                                // 
-pub const WAVE_SQUARE: char = '\u{f83e}';                          // 
-pub const WAZE: char = '\u{f83f}';                                 // 
-pub const WEEBLY: char = '\u{f5cc}';                               // 
-pub const WEIBO: char = '\u{f18a}';                                // 
-pub const WEIGHT: char = '\u{f496}';                               // 
-pub const WEIGHT_HANGING: char = '\u{f5cd}';                       // 
-pub const WEIXIN: char = '\u{f1d7}';                               // 
-pub const WHATSAPP: char = '\u{f232}';                             // 
-pub const WHATSAPP_SQUARE: char = '\u{f40c}';                      // 
-pub const WHEELCHAIR: char = '\u{f193}';                           // 
-pub const WHMCS: char = '\u{f40d}';                                // 
-pub const WIFI: char = '\u{f1eb}';                                 // 
-pub const WIKIPEDIA_W: char = '\u{f266}';                          // 
-pub const WIND: char = '\u{f72e}';                                 // 
-pub const WINDOW_CLOSE: char = '\u{f410}';                         // 
-pub const WINDOW_MAXIMIZE: char = '\u{f2d0}';                      // 
-pub const WINDOW_MINIMIZE: char = '\u{f2d1}';                      // 
-pub const WINDOW_RESTORE: char = '\u{f2d2}';                       // 
-pub const WINDOWS: char = '\u{f17a}';                              // 
-pub const WINE_BOTTLE: char = '\u{f72f}';                          // 
-pub const WINE_GLASS: char = '\u{f4e3}';                           // 
-pub const WINE_GLASS_ALT: char = '\u{f5ce}';                       // 
-pub const WIX: char = '\u{f5cf}';                                  // 
-pub const WIZARDS_OF_THE_COAST: char = '\u{f730}';                 // 
-pub const WOLF_PACK_BATTALION: char = '\u{f514}';                  // 
-pub const WON_SIGN: char = '\u{f159}';                             // 
-pub const WORDPRESS: char = '\u{f19a}';                            // 
-pub const WORDPRESS_SIMPLE: char = '\u{f411}';                     // 
-pub const WPBEGINNER: char = '\u{f297}';                           // 
-pub const WPEXPLORER: char = '\u{f2de}';                           // 
-pub const WPFORMS: char = '\u{f298}';                              // 
-pub const WPRESSR: char = '\u{f3e4}';                              // 
-pub const WRENCH: char = '\u{f0ad}';                               // 
-pub const X_RAY: char = '\u{f497}';                                // 
-pub const XBOX: char = '\u{f412}';                                 // 
-pub const XING: char = '\u{f168}';                                 // 
-pub const XING_SQUARE: char = '\u{f169}';                          // 
-pub const Y_COMBINATOR: char = '\u{f23b}';                         // 
-pub const YAHOO: char = '\u{f19e}';                                // 
-pub const YAMMER: char = '\u{f840}';                               // 
-pub const YANDEX: char = '\u{f413}';                               // 
-pub const YANDEX_INTERNATIONAL: char = '\u{f414}';                 // 
-pub const YARN: char = '\u{f7e3}';                                 // 
-pub const YELP: char = '\u{f1e9}';                                 // 
-pub const YEN_SIGN: char = '\u{f157}';                             // 
-pub const YIN_YANG: char = '\u{f6ad}';                             // 
-pub const YOAST: char = '\u{f2b1}';                                // 
-pub const YOUTUBE: char = '\u{f167}';                              // 
-pub const YOUTUBE_SQUARE: char = '\u{f431}';                       // 
-pub const ZHIHU: char = '\u{f63f}';                                // 
+use std::collections::HashMap;
+
+lazy_static! {
+    // Icons list generated using a modified version of fontawesome-python
+    pub static ref ICONS: HashMap<String, char> = {
+        let mut m = HashMap::new();
+        m.insert("500px".to_string(), '\u{f26e}');
+        m.insert("accessible-icon".to_string(), '\u{f368}');
+        m.insert("accusoft".to_string(), '\u{f369}');
+        m.insert("acquisitions-incorporated".to_string(), '\u{f6af}');
+        m.insert("ad".to_string(), '\u{f641}');
+        m.insert("address-book".to_string(), '\u{f2b9}');
+        m.insert("address-card".to_string(), '\u{f2bb}');
+        m.insert("adjust".to_string(), '\u{f042}');
+        m.insert("adn".to_string(), '\u{f170}');
+        m.insert("adobe".to_string(), '\u{f778}');
+        m.insert("adversal".to_string(), '\u{f36a}');
+        m.insert("affiliatetheme".to_string(), '\u{f36b}');
+        m.insert("air-freshener".to_string(), '\u{f5d0}');
+        m.insert("airbnb".to_string(), '\u{f834}');
+        m.insert("alacritty".to_string(), '\u{f120}');
+        m.insert("algolia".to_string(), '\u{f36c}');
+        m.insert("align-center".to_string(), '\u{f037}');
+        m.insert("align-justify".to_string(), '\u{f039}');
+        m.insert("align-left".to_string(), '\u{f036}');
+        m.insert("align-right".to_string(), '\u{f038}');
+        m.insert("alipay".to_string(), '\u{f642}');
+        m.insert("allergies".to_string(), '\u{f461}');
+        m.insert("amazon".to_string(), '\u{f270}');
+        m.insert("amazon-pay".to_string(), '\u{f42c}');
+        m.insert("ambulance".to_string(), '\u{f0f9}');
+        m.insert("american-sign-language-interpreting".to_string(), '\u{f2a3}',);
+        m.insert("amilia".to_string(), '\u{f36d}');
+        m.insert("anchor".to_string(), '\u{f13d}');
+        m.insert("android".to_string(), '\u{f17b}');
+        m.insert("angellist".to_string(), '\u{f209}');
+        m.insert("angle-double-down".to_string(), '\u{f103}');
+        m.insert("angle-double-left".to_string(), '\u{f100}');
+        m.insert("angle-double-right".to_string(), '\u{f101}');
+        m.insert("angle-double-up".to_string(), '\u{f102}');
+        m.insert("angle-down".to_string(), '\u{f107}');
+        m.insert("angle-left".to_string(), '\u{f104}');
+        m.insert("angle-right".to_string(), '\u{f105}');
+        m.insert("angle-up".to_string(), '\u{f106}');
+        m.insert("angry".to_string(), '\u{f556}');
+        m.insert("angrycreative".to_string(), '\u{f36e}');
+        m.insert("angular".to_string(), '\u{f420}');
+        m.insert("ankh".to_string(), '\u{f644}');
+        m.insert("app-store".to_string(), '\u{f36f}');
+        m.insert("app-store-ios".to_string(), '\u{f370}');
+        m.insert("apper".to_string(), '\u{f371}');
+        m.insert("apple".to_string(), '\u{f179}');
+        m.insert("apple-alt".to_string(), '\u{f5d1}');
+        m.insert("apple-pay".to_string(), '\u{f415}');
+        m.insert("archive".to_string(), '\u{f187}');
+        m.insert("archway".to_string(), '\u{f557}');
+        m.insert("arrow-alt-circle-down".to_string(), '\u{f358}');
+        m.insert("arrow-alt-circle-left".to_string(), '\u{f359}');
+        m.insert("arrow-alt-circle-right".to_string(), '\u{f35a}');
+        m.insert("arrow-alt-circle-up".to_string(), '\u{f35b}');
+        m.insert("arrow-circle-down".to_string(), '\u{f0ab}');
+        m.insert("arrow-circle-left".to_string(), '\u{f0a8}');
+        m.insert("arrow-circle-right".to_string(), '\u{f0a9}');
+        m.insert("arrow-circle-up".to_string(), '\u{f0aa}');
+        m.insert("arrow-down".to_string(), '\u{f063}');
+        m.insert("arrow-left".to_string(), '\u{f060}');
+        m.insert("arrow-right".to_string(), '\u{f061}');
+        m.insert("arrow-up".to_string(), '\u{f062}');
+        m.insert("arrows-alt".to_string(), '\u{f0b2}');
+        m.insert("arrows-alt-h".to_string(), '\u{f337}');
+        m.insert("arrows-alt-v".to_string(), '\u{f338}');
+        m.insert("artstation".to_string(), '\u{f77a}');
+        m.insert("assistive-listening-systems".to_string(), '\u{f2a2}');
+        m.insert("asterisk".to_string(), '\u{f069}');
+        m.insert("asymmetrik".to_string(), '\u{f372}');
+        m.insert("at".to_string(), '\u{f1fa}');
+        m.insert("atlas".to_string(), '\u{f558}');
+        m.insert("atlassian".to_string(), '\u{f77b}');
+        m.insert("atom".to_string(), '\u{f5d2}');
+        m.insert("audible".to_string(), '\u{f373}');
+        m.insert("audio-description".to_string(), '\u{f29e}');
+        m.insert("autoprefixer".to_string(), '\u{f41c}');
+        m.insert("avianex".to_string(), '\u{f374}');
+        m.insert("aviato".to_string(), '\u{f421}');
+        m.insert("award".to_string(), '\u{f559}');
+        m.insert("aws".to_string(), '\u{f375}');
+        m.insert("baby".to_string(), '\u{f77c}');
+        m.insert("baby-carriage".to_string(), '\u{f77d}');
+        m.insert("backspace".to_string(), '\u{f55a}');
+        m.insert("backward".to_string(), '\u{f04a}');
+        m.insert("bacon".to_string(), '\u{f7e5}');
+        m.insert("bahai".to_string(), '\u{f666}');
+        m.insert("balance-scale".to_string(), '\u{f24e}');
+        m.insert("balance-scale-left".to_string(), '\u{f515}');
+        m.insert("balance-scale-right".to_string(), '\u{f516}');
+        m.insert("ban".to_string(), '\u{f05e}');
+        m.insert("band-aid".to_string(), '\u{f462}');
+        m.insert("bandcamp".to_string(), '\u{f2d5}');
+        m.insert("barcode".to_string(), '\u{f02a}');
+        m.insert("bars".to_string(), '\u{f0c9}');
+        m.insert("baseball-ball".to_string(), '\u{f433}');
+        m.insert("basketball-ball".to_string(), '\u{f434}');
+        m.insert("bath".to_string(), '\u{f2cd}');
+        m.insert("battery-empty".to_string(), '\u{f244}');
+        m.insert("battery-full".to_string(), '\u{f240}');
+        m.insert("battery-half".to_string(), '\u{f242}');
+        m.insert("battery-quarter".to_string(), '\u{f243}');
+        m.insert("battery-three-quarters".to_string(), '\u{f241}');
+        m.insert("battle-net".to_string(), '\u{f835}');
+        m.insert("bed".to_string(), '\u{f236}');
+        m.insert("beer".to_string(), '\u{f0fc}');
+        m.insert("behance".to_string(), '\u{f1b4}');
+        m.insert("behance-square".to_string(), '\u{f1b5}');
+        m.insert("bell".to_string(), '\u{f0f3}');
+        m.insert("bell-slash".to_string(), '\u{f1f6}');
+        m.insert("bezier-curve".to_string(), '\u{f55b}');
+        m.insert("bible".to_string(), '\u{f647}');
+        m.insert("bicycle".to_string(), '\u{f206}');
+        m.insert("biking".to_string(), '\u{f84a}');
+        m.insert("bimobject".to_string(), '\u{f378}');
+        m.insert("binoculars".to_string(), '\u{f1e5}');
+        m.insert("biohazard".to_string(), '\u{f780}');
+        m.insert("birthday-cake".to_string(), '\u{f1fd}');
+        m.insert("bitbucket".to_string(), '\u{f171}');
+        m.insert("bitcoin".to_string(), '\u{f379}');
+        m.insert("bity".to_string(), '\u{f37a}');
+        m.insert("black-tie".to_string(), '\u{f27e}');
+        m.insert("blackberry".to_string(), '\u{f37b}');
+        m.insert("blender".to_string(), '\u{f517}');
+        m.insert("blender-phone".to_string(), '\u{f6b6}');
+        m.insert("blind".to_string(), '\u{f29d}');
+        m.insert("blog".to_string(), '\u{f781}');
+        m.insert("blogger".to_string(), '\u{f37c}');
+        m.insert("blogger-b".to_string(), '\u{f37d}');
+        m.insert("bluetooth".to_string(), '\u{f293}');
+        m.insert("bluetooth-b".to_string(), '\u{f294}');
+        m.insert("bold".to_string(), '\u{f032}');
+        m.insert("bolt".to_string(), '\u{f0e7}');
+        m.insert("bomb".to_string(), '\u{f1e2}');
+        m.insert("bone".to_string(), '\u{f5d7}');
+        m.insert("bong".to_string(), '\u{f55c}');
+        m.insert("book".to_string(), '\u{f02d}');
+        m.insert("book-dead".to_string(), '\u{f6b7}');
+        m.insert("book-medical".to_string(), '\u{f7e6}');
+        m.insert("book-open".to_string(), '\u{f518}');
+        m.insert("book-reader".to_string(), '\u{f5da}');
+        m.insert("bookmark".to_string(), '\u{f02e}');
+        m.insert("bootstrap".to_string(), '\u{f836}');
+        m.insert("border-all".to_string(), '\u{f84c}');
+        m.insert("border-none".to_string(), '\u{f850}');
+        m.insert("border-style".to_string(), '\u{f853}');
+        m.insert("bowling-ball".to_string(), '\u{f436}');
+        m.insert("box".to_string(), '\u{f466}');
+        m.insert("box-open".to_string(), '\u{f49e}');
+        m.insert("boxes".to_string(), '\u{f468}');
+        m.insert("braille".to_string(), '\u{f2a1}');
+        m.insert("brain".to_string(), '\u{f5dc}');
+        m.insert("bread-slice".to_string(), '\u{f7ec}');
+        m.insert("briefcase".to_string(), '\u{f0b1}');
+        m.insert("briefcase-medical".to_string(), '\u{f469}');
+        m.insert("broadcast-tower".to_string(), '\u{f519}');
+        m.insert("broom".to_string(), '\u{f51a}');
+        m.insert("brush".to_string(), '\u{f55d}');
+        m.insert("btc".to_string(), '\u{f15a}');
+        m.insert("buffer".to_string(), '\u{f837}');
+        m.insert("bug".to_string(), '\u{f188}');
+        m.insert("building".to_string(), '\u{f1ad}');
+        m.insert("bullhorn".to_string(), '\u{f0a1}');
+        m.insert("bullseye".to_string(), '\u{f140}');
+        m.insert("burn".to_string(), '\u{f46a}');
+        m.insert("buromobelexperte".to_string(), '\u{f37f}');
+        m.insert("bus".to_string(), '\u{f207}');
+        m.insert("bus-alt".to_string(), '\u{f55e}');
+        m.insert("business-time".to_string(), '\u{f64a}');
+        m.insert("buy-n-large".to_string(), '\u{f8a6}');
+        m.insert("buysellads".to_string(), '\u{f20d}');
+        m.insert("calculator".to_string(), '\u{f1ec}');
+        m.insert("calendar".to_string(), '\u{f133}');
+        m.insert("calendar-alt".to_string(), '\u{f073}');
+        m.insert("calendar-check".to_string(), '\u{f274}');
+        m.insert("calendar-day".to_string(), '\u{f783}');
+        m.insert("calendar-minus".to_string(), '\u{f272}');
+        m.insert("calendar-plus".to_string(), '\u{f271}');
+        m.insert("calendar-times".to_string(), '\u{f273}');
+        m.insert("calendar-week".to_string(), '\u{f784}');
+        m.insert("camera".to_string(), '\u{f030}');
+        m.insert("camera-retro".to_string(), '\u{f083}');
+        m.insert("campground".to_string(), '\u{f6bb}');
+        m.insert("canadian-maple-leaf".to_string(), '\u{f785}');
+        m.insert("candy-cane".to_string(), '\u{f786}');
+        m.insert("cannabis".to_string(), '\u{f55f}');
+        m.insert("capsules".to_string(), '\u{f46b}');
+        m.insert("car".to_string(), '\u{f1b9}');
+        m.insert("car-alt".to_string(), '\u{f5de}');
+        m.insert("car-battery".to_string(), '\u{f5df}');
+        m.insert("car-crash".to_string(), '\u{f5e1}');
+        m.insert("car-side".to_string(), '\u{f5e4}');
+        m.insert("caravan".to_string(), '\u{f8ff}');
+        m.insert("caret-down".to_string(), '\u{f0d7}');
+        m.insert("caret-left".to_string(), '\u{f0d9}');
+        m.insert("caret-right".to_string(), '\u{f0da}');
+        m.insert("caret-square-down".to_string(), '\u{f150}');
+        m.insert("caret-square-left".to_string(), '\u{f191}');
+        m.insert("caret-square-right".to_string(), '\u{f152}');
+        m.insert("caret-square-up".to_string(), '\u{f151}');
+        m.insert("caret-up".to_string(), '\u{f0d8}');
+        m.insert("carrot".to_string(), '\u{f787}');
+        m.insert("cart-arrow-down".to_string(), '\u{f218}');
+        m.insert("cart-plus".to_string(), '\u{f217}');
+        m.insert("cash-register".to_string(), '\u{f788}');
+        m.insert("cat".to_string(), '\u{f6be}');
+        m.insert("cc-amazon-pay".to_string(), '\u{f42d}');
+        m.insert("cc-amex".to_string(), '\u{f1f3}');
+        m.insert("cc-apple-pay".to_string(), '\u{f416}');
+        m.insert("cc-diners-club".to_string(), '\u{f24c}');
+        m.insert("cc-discover".to_string(), '\u{f1f2}');
+        m.insert("cc-jcb".to_string(), '\u{f24b}');
+        m.insert("cc-mastercard".to_string(), '\u{f1f1}');
+        m.insert("cc-paypal".to_string(), '\u{f1f4}');
+        m.insert("cc-stripe".to_string(), '\u{f1f5}');
+        m.insert("cc-visa".to_string(), '\u{f1f0}');
+        m.insert("centercode".to_string(), '\u{f380}');
+        m.insert("centos".to_string(), '\u{f789}');
+        m.insert("certificate".to_string(), '\u{f0a3}');
+        m.insert("chair".to_string(), '\u{f6c0}');
+        m.insert("chalkboard".to_string(), '\u{f51b}');
+        m.insert("chalkboard-teacher".to_string(), '\u{f51c}');
+        m.insert("charging-station".to_string(), '\u{f5e7}');
+        m.insert("chart-area".to_string(), '\u{f1fe}');
+        m.insert("chart-bar".to_string(), '\u{f080}');
+        m.insert("chart-line".to_string(), '\u{f201}');
+        m.insert("chart-pie".to_string(), '\u{f200}');
+        m.insert("check".to_string(), '\u{f00c}');
+        m.insert("check-circle".to_string(), '\u{f058}');
+        m.insert("check-double".to_string(), '\u{f560}');
+        m.insert("check-square".to_string(), '\u{f14a}');
+        m.insert("cheese".to_string(), '\u{f7ef}');
+        m.insert("chess".to_string(), '\u{f439}');
+        m.insert("chess-bishop".to_string(), '\u{f43a}');
+        m.insert("chess-board".to_string(), '\u{f43c}');
+        m.insert("chess-king".to_string(), '\u{f43f}');
+        m.insert("chess-knight".to_string(), '\u{f441}');
+        m.insert("chess-pawn".to_string(), '\u{f443}');
+        m.insert("chess-queen".to_string(), '\u{f445}');
+        m.insert("chess-rook".to_string(), '\u{f447}');
+        m.insert("chevron-circle-down".to_string(), '\u{f13a}');
+        m.insert("chevron-circle-left".to_string(), '\u{f137}');
+        m.insert("chevron-circle-right".to_string(), '\u{f138}');
+        m.insert("chevron-circle-up".to_string(), '\u{f139}');
+        m.insert("chevron-down".to_string(), '\u{f078}');
+        m.insert("chevron-left".to_string(), '\u{f053}');
+        m.insert("chevron-right".to_string(), '\u{f054}');
+        m.insert("chevron-up".to_string(), '\u{f077}');
+        m.insert("child".to_string(), '\u{f1ae}');
+        m.insert("chrome".to_string(), '\u{f268}');
+        m.insert("chromecast".to_string(), '\u{f838}');
+        m.insert("church".to_string(), '\u{f51d}');
+        m.insert("circle".to_string(), '\u{f111}');
+        m.insert("circle-notch".to_string(), '\u{f1ce}');
+        m.insert("city".to_string(), '\u{f64f}');
+        m.insert("clinic-medical".to_string(), '\u{f7f2}');
+        m.insert("clipboard".to_string(), '\u{f328}');
+        m.insert("clipboard-check".to_string(), '\u{f46c}');
+        m.insert("clipboard-list".to_string(), '\u{f46d}');
+        m.insert("clock".to_string(), '\u{f017}');
+        m.insert("clone".to_string(), '\u{f24d}');
+        m.insert("closed-captioning".to_string(), '\u{f20a}');
+        m.insert("cloud".to_string(), '\u{f0c2}');
+        m.insert("cloud-download-alt".to_string(), '\u{f381}');
+        m.insert("cloud-meatball".to_string(), '\u{f73b}');
+        m.insert("cloud-moon".to_string(), '\u{f6c3}');
+        m.insert("cloud-moon-rain".to_string(), '\u{f73c}');
+        m.insert("cloud-rain".to_string(), '\u{f73d}');
+        m.insert("cloud-showers-heavy".to_string(), '\u{f740}');
+        m.insert("cloud-sun".to_string(), '\u{f6c4}');
+        m.insert("cloud-sun-rain".to_string(), '\u{f743}');
+        m.insert("cloud-upload-alt".to_string(), '\u{f382}');
+        m.insert("cloudscale".to_string(), '\u{f383}');
+        m.insert("cloudsmith".to_string(), '\u{f384}');
+        m.insert("cloudversify".to_string(), '\u{f385}');
+        m.insert("cocktail".to_string(), '\u{f561}');
+        m.insert("code".to_string(), '\u{f121}');
+        m.insert("code-branch".to_string(), '\u{f126}');
+        m.insert("codepen".to_string(), '\u{f1cb}');
+        m.insert("codiepie".to_string(), '\u{f284}');
+        m.insert("coffee".to_string(), '\u{f0f4}');
+        m.insert("cog".to_string(), '\u{f013}');
+        m.insert("cogs".to_string(), '\u{f085}');
+        m.insert("coins".to_string(), '\u{f51e}');
+        m.insert("columns".to_string(), '\u{f0db}');
+        m.insert("comment".to_string(), '\u{f075}');
+        m.insert("comment-alt".to_string(), '\u{f27a}');
+        m.insert("comment-dollar".to_string(), '\u{f651}');
+        m.insert("comment-dots".to_string(), '\u{f4ad}');
+        m.insert("comment-medical".to_string(), '\u{f7f5}');
+        m.insert("comment-slash".to_string(), '\u{f4b3}');
+        m.insert("comments".to_string(), '\u{f086}');
+        m.insert("comments-dollar".to_string(), '\u{f653}');
+        m.insert("compact-disc".to_string(), '\u{f51f}');
+        m.insert("compass".to_string(), '\u{f14e}');
+        m.insert("compress".to_string(), '\u{f066}');
+        m.insert("compress-alt".to_string(), '\u{f422}');
+        m.insert("compress-arrows-alt".to_string(), '\u{f78c}');
+        m.insert("concierge-bell".to_string(), '\u{f562}');
+        m.insert("confluence".to_string(), '\u{f78d}');
+        m.insert("connectdevelop".to_string(), '\u{f20e}');
+        m.insert("contao".to_string(), '\u{f26d}');
+        m.insert("cookie".to_string(), '\u{f563}');
+        m.insert("cookie-bite".to_string(), '\u{f564}');
+        m.insert("copy".to_string(), '\u{f0c5}');
+        m.insert("copyright".to_string(), '\u{f1f9}');
+        m.insert("cotton-bureau".to_string(), '\u{f89e}');
+        m.insert("couch".to_string(), '\u{f4b8}');
+        m.insert("cpanel".to_string(), '\u{f388}');
+        m.insert("creative-commons".to_string(), '\u{f25e}');
+        m.insert("creative-commons-by".to_string(), '\u{f4e7}');
+        m.insert("creative-commons-nc".to_string(), '\u{f4e8}');
+        m.insert("creative-commons-nc-eu".to_string(), '\u{f4e9}');
+        m.insert("creative-commons-nc-jp".to_string(), '\u{f4ea}');
+        m.insert("creative-commons-nd".to_string(), '\u{f4eb}');
+        m.insert("creative-commons-pd".to_string(), '\u{f4ec}');
+        m.insert("creative-commons-pd-alt".to_string(), '\u{f4ed}');
+        m.insert("creative-commons-remix".to_string(), '\u{f4ee}');
+        m.insert("creative-commons-sa".to_string(), '\u{f4ef}');
+        m.insert("creative-commons-sampling".to_string(), '\u{f4f0}');
+        m.insert("creative-commons-sampling-plus".to_string(), '\u{f4f1}');
+        m.insert("creative-commons-share".to_string(), '\u{f4f2}');
+        m.insert("creative-commons-zero".to_string(), '\u{f4f3}');
+        m.insert("credit-card".to_string(), '\u{f09d}');
+        m.insert("critical-role".to_string(), '\u{f6c9}');
+        m.insert("crop".to_string(), '\u{f125}');
+        m.insert("crop-alt".to_string(), '\u{f565}');
+        m.insert("cross".to_string(), '\u{f654}');
+        m.insert("crosshairs".to_string(), '\u{f05b}');
+        m.insert("crow".to_string(), '\u{f520}');
+        m.insert("crown".to_string(), '\u{f521}');
+        m.insert("crutch".to_string(), '\u{f7f7}');
+        m.insert("css3".to_string(), '\u{f13c}');
+        m.insert("css3-alt".to_string(), '\u{f38b}');
+        m.insert("cube".to_string(), '\u{f1b2}');
+        m.insert("cubes".to_string(), '\u{f1b3}');
+        m.insert("cut".to_string(), '\u{f0c4}');
+        m.insert("cuttlefish".to_string(), '\u{f38c}');
+        m.insert("d-and-d".to_string(), '\u{f38d}');
+        m.insert("d-and-d-beyond".to_string(), '\u{f6ca}');
+        m.insert("dailymotion".to_string(), '\u{f952}');
+        m.insert("dashcube".to_string(), '\u{f210}');
+        m.insert("database".to_string(), '\u{f1c0}');
+        m.insert("deaf".to_string(), '\u{f2a4}');
+        m.insert("delicious".to_string(), '\u{f1a5}');
+        m.insert("democrat".to_string(), '\u{f747}');
+        m.insert("deploydog".to_string(), '\u{f38e}');
+        m.insert("deskpro".to_string(), '\u{f38f}');
+        m.insert("desktop".to_string(), '\u{f108}');
+        m.insert("dev".to_string(), '\u{f6cc}');
+        m.insert("deviantart".to_string(), '\u{f1bd}');
+        m.insert("dharmachakra".to_string(), '\u{f655}');
+        m.insert("dhl".to_string(), '\u{f790}');
+        m.insert("diagnoses".to_string(), '\u{f470}');
+        m.insert("diaspora".to_string(), '\u{f791}');
+        m.insert("dice".to_string(), '\u{f522}');
+        m.insert("dice-d20".to_string(), '\u{f6cf}');
+        m.insert("dice-d6".to_string(), '\u{f6d1}');
+        m.insert("dice-five".to_string(), '\u{f523}');
+        m.insert("dice-four".to_string(), '\u{f524}');
+        m.insert("dice-one".to_string(), '\u{f525}');
+        m.insert("dice-six".to_string(), '\u{f526}');
+        m.insert("dice-three".to_string(), '\u{f527}');
+        m.insert("dice-two".to_string(), '\u{f528}');
+        m.insert("digg".to_string(), '\u{f1a6}');
+        m.insert("digital-ocean".to_string(), '\u{f391}');
+        m.insert("digital-tachograph".to_string(), '\u{f566}');
+        m.insert("directions".to_string(), '\u{f5eb}');
+        m.insert("discord".to_string(), '\u{f392}');
+        m.insert("discourse".to_string(), '\u{f393}');
+        m.insert("divide".to_string(), '\u{f529}');
+        m.insert("dizzy".to_string(), '\u{f567}');
+        m.insert("dna".to_string(), '\u{f471}');
+        m.insert("dochub".to_string(), '\u{f394}');
+        m.insert("docker".to_string(), '\u{f395}');
+        m.insert("dog".to_string(), '\u{f6d3}');
+        m.insert("dollar-sign".to_string(), '\u{f155}');
+        m.insert("dolly".to_string(), '\u{f472}');
+        m.insert("dolly-flatbed".to_string(), '\u{f474}');
+        m.insert("donate".to_string(), '\u{f4b9}');
+        m.insert("door-closed".to_string(), '\u{f52a}');
+        m.insert("door-open".to_string(), '\u{f52b}');
+        m.insert("dot-circle".to_string(), '\u{f192}');
+        m.insert("dove".to_string(), '\u{f4ba}');
+        m.insert("download".to_string(), '\u{f019}');
+        m.insert("draft2digital".to_string(), '\u{f396}');
+        m.insert("drafting-compass".to_string(), '\u{f568}');
+        m.insert("dragon".to_string(), '\u{f6d5}');
+        m.insert("draw-polygon".to_string(), '\u{f5ee}');
+        m.insert("dribbble".to_string(), '\u{f17d}');
+        m.insert("dribbble-square".to_string(), '\u{f397}');
+        m.insert("dropbox".to_string(), '\u{f16b}');
+        m.insert("drum".to_string(), '\u{f569}');
+        m.insert("drum-steelpan".to_string(), '\u{f56a}');
+        m.insert("drumstick-bite".to_string(), '\u{f6d7}');
+        m.insert("drupal".to_string(), '\u{f1a9}');
+        m.insert("dumbbell".to_string(), '\u{f44b}');
+        m.insert("dumpster".to_string(), '\u{f793}');
+        m.insert("dumpster-fire".to_string(), '\u{f794}');
+        m.insert("dungeon".to_string(), '\u{f6d9}');
+        m.insert("dyalog".to_string(), '\u{f399}');
+        m.insert("earlybirds".to_string(), '\u{f39a}');
+        m.insert("ebay".to_string(), '\u{f4f4}');
+        m.insert("edge".to_string(), '\u{f282}');
+        m.insert("edit".to_string(), '\u{f044}');
+        m.insert("egg".to_string(), '\u{f7fb}');
+        m.insert("eject".to_string(), '\u{f052}');
+        m.insert("elementor".to_string(), '\u{f430}');
+        m.insert("ellipsis-h".to_string(), '\u{f141}');
+        m.insert("ellipsis-v".to_string(), '\u{f142}');
+        m.insert("ello".to_string(), '\u{f5f1}');
+        m.insert("ember".to_string(), '\u{f423}');
+        m.insert("empire".to_string(), '\u{f1d1}');
+        m.insert("envelope".to_string(), '\u{f0e0}');
+        m.insert("envelope-open".to_string(), '\u{f2b6}');
+        m.insert("envelope-open-text".to_string(), '\u{f658}');
+        m.insert("envelope-square".to_string(), '\u{f199}');
+        m.insert("envira".to_string(), '\u{f299}');
+        m.insert("equals".to_string(), '\u{f52c}');
+        m.insert("eraser".to_string(), '\u{f12d}');
+        m.insert("erlang".to_string(), '\u{f39d}');
+        m.insert("ethereum".to_string(), '\u{f42e}');
+        m.insert("ethernet".to_string(), '\u{f796}');
+        m.insert("etsy".to_string(), '\u{f2d7}');
+        m.insert("euro-sign".to_string(), '\u{f153}');
+        m.insert("evernote".to_string(), '\u{f839}');
+        m.insert("exchange-alt".to_string(), '\u{f362}');
+        m.insert("exclamation".to_string(), '\u{f12a}');
+        m.insert("exclamation-circle".to_string(), '\u{f06a}');
+        m.insert("exclamation-triangle".to_string(), '\u{f071}');
+        m.insert("expand".to_string(), '\u{f065}');
+        m.insert("expand-alt".to_string(), '\u{f424}');
+        m.insert("expand-arrows-alt".to_string(), '\u{f31e}');
+        m.insert("expeditedssl".to_string(), '\u{f23e}');
+        m.insert("external-link-alt".to_string(), '\u{f35d}');
+        m.insert("external-link-square-alt".to_string(), '\u{f360}');
+        m.insert("eye".to_string(), '\u{f06e}');
+        m.insert("eye-dropper".to_string(), '\u{f1fb}');
+        m.insert("eye-slash".to_string(), '\u{f070}');
+        m.insert("facebook".to_string(), '\u{f09a}');
+        m.insert("facebook-f".to_string(), '\u{f39e}');
+        m.insert("facebook-messenger".to_string(), '\u{f39f}');
+        m.insert("facebook-square".to_string(), '\u{f082}');
+        m.insert("fan".to_string(), '\u{f863}');
+        m.insert("fantasy-flight-games".to_string(), '\u{f6dc}');
+        m.insert("fast-backward".to_string(), '\u{f049}');
+        m.insert("fast-forward".to_string(), '\u{f050}');
+        m.insert("fax".to_string(), '\u{f1ac}');
+        m.insert("feather".to_string(), '\u{f52d}');
+        m.insert("feather-alt".to_string(), '\u{f56b}');
+        m.insert("fedex".to_string(), '\u{f797}');
+        m.insert("fedora".to_string(), '\u{f798}');
+        m.insert("female".to_string(), '\u{f182}');
+        m.insert("fighter-jet".to_string(), '\u{f0fb}');
+        m.insert("figma".to_string(), '\u{f799}');
+        m.insert("file".to_string(), '\u{f15b}');
+        m.insert("file-alt".to_string(), '\u{f15c}');
+        m.insert("file-archive".to_string(), '\u{f1c6}');
+        m.insert("file-audio".to_string(), '\u{f1c7}');
+        m.insert("file-code".to_string(), '\u{f1c9}');
+        m.insert("file-contract".to_string(), '\u{f56c}');
+        m.insert("file-csv".to_string(), '\u{f6dd}');
+        m.insert("file-download".to_string(), '\u{f56d}');
+        m.insert("file-excel".to_string(), '\u{f1c3}');
+        m.insert("file-export".to_string(), '\u{f56e}');
+        m.insert("file-image".to_string(), '\u{f1c5}');
+        m.insert("file-import".to_string(), '\u{f56f}');
+        m.insert("file-invoice".to_string(), '\u{f570}');
+        m.insert("file-invoice-dollar".to_string(), '\u{f571}');
+        m.insert("file-medical".to_string(), '\u{f477}');
+        m.insert("file-medical-alt".to_string(), '\u{f478}');
+        m.insert("file-pdf".to_string(), '\u{f1c1}');
+        m.insert("file-powerpoint".to_string(), '\u{f1c4}');
+        m.insert("file-prescription".to_string(), '\u{f572}');
+        m.insert("file-signature".to_string(), '\u{f573}');
+        m.insert("file-upload".to_string(), '\u{f574}');
+        m.insert("file-video".to_string(), '\u{f1c8}');
+        m.insert("file-word".to_string(), '\u{f1c2}');
+        m.insert("fill".to_string(), '\u{f575}');
+        m.insert("fill-drip".to_string(), '\u{f576}');
+        m.insert("film".to_string(), '\u{f008}');
+        m.insert("filter".to_string(), '\u{f0b0}');
+        m.insert("fingerprint".to_string(), '\u{f577}');
+        m.insert("fire".to_string(), '\u{f06d}');
+        m.insert("fire-alt".to_string(), '\u{f7e4}');
+        m.insert("fire-extinguisher".to_string(), '\u{f134}');
+        m.insert("firefox".to_string(), '\u{f269}');
+        m.insert("firefox-browser".to_string(), '\u{f907}');
+        m.insert("first-aid".to_string(), '\u{f479}');
+        m.insert("first-order".to_string(), '\u{f2b0}');
+        m.insert("first-order-alt".to_string(), '\u{f50a}');
+        m.insert("firstdraft".to_string(), '\u{f3a1}');
+        m.insert("fish".to_string(), '\u{f578}');
+        m.insert("fist-raised".to_string(), '\u{f6de}');
+        m.insert("flag".to_string(), '\u{f024}');
+        m.insert("flag-checkered".to_string(), '\u{f11e}');
+        m.insert("flag-usa".to_string(), '\u{f74d}');
+        m.insert("flask".to_string(), '\u{f0c3}');
+        m.insert("flickr".to_string(), '\u{f16e}');
+        m.insert("flipboard".to_string(), '\u{f44d}');
+        m.insert("flushed".to_string(), '\u{f579}');
+        m.insert("fly".to_string(), '\u{f417}');
+        m.insert("folder".to_string(), '\u{f07b}');
+        m.insert("folder-minus".to_string(), '\u{f65d}');
+        m.insert("folder-open".to_string(), '\u{f07c}');
+        m.insert("folder-plus".to_string(), '\u{f65e}');
+        m.insert("font".to_string(), '\u{f031}');
+        m.insert("font-awesome".to_string(), '\u{f2b4}');
+        m.insert("font-awesome-alt".to_string(), '\u{f35c}');
+        m.insert("font-awesome-flag".to_string(), '\u{f425}');
+        m.insert("font-awesome-logo-full".to_string(), '\u{f4e6}');
+        m.insert("fonticons".to_string(), '\u{f280}');
+        m.insert("fonticons-fi".to_string(), '\u{f3a2}');
+        m.insert("football-ball".to_string(), '\u{f44e}');
+        m.insert("fort-awesome".to_string(), '\u{f286}');
+        m.insert("fort-awesome-alt".to_string(), '\u{f3a3}');
+        m.insert("forumbee".to_string(), '\u{f211}');
+        m.insert("forward".to_string(), '\u{f04e}');
+        m.insert("foursquare".to_string(), '\u{f180}');
+        m.insert("free-code-camp".to_string(), '\u{f2c5}');
+        m.insert("freebsd".to_string(), '\u{f3a4}');
+        m.insert("frog".to_string(), '\u{f52e}');
+        m.insert("frown".to_string(), '\u{f119}');
+        m.insert("frown-open".to_string(), '\u{f57a}');
+        m.insert("fulcrum".to_string(), '\u{f50b}');
+        m.insert("funnel-dollar".to_string(), '\u{f662}');
+        m.insert("futbol".to_string(), '\u{f1e3}');
+        m.insert("galactic-republic".to_string(), '\u{f50c}');
+        m.insert("galactic-senate".to_string(), '\u{f50d}');
+        m.insert("gamepad".to_string(), '\u{f11b}');
+        m.insert("gas-pump".to_string(), '\u{f52f}');
+        m.insert("gavel".to_string(), '\u{f0e3}');
+        m.insert("gem".to_string(), '\u{f3a5}');
+        m.insert("genderless".to_string(), '\u{f22d}');
+        m.insert("get-pocket".to_string(), '\u{f265}');
+        m.insert("gg".to_string(), '\u{f260}');
+        m.insert("gg-circle".to_string(), '\u{f261}');
+        m.insert("ghost".to_string(), '\u{f6e2}');
+        m.insert("gift".to_string(), '\u{f06b}');
+        m.insert("gifts".to_string(), '\u{f79c}');
+        m.insert("git".to_string(), '\u{f1d3}');
+        m.insert("git-alt".to_string(), '\u{f841}');
+        m.insert("git-square".to_string(), '\u{f1d2}');
+        m.insert("github".to_string(), '\u{f09b}');
+        m.insert("github-alt".to_string(), '\u{f113}');
+        m.insert("github-square".to_string(), '\u{f092}');
+        m.insert("gitkraken".to_string(), '\u{f3a6}');
+        m.insert("gitlab".to_string(), '\u{f296}');
+        m.insert("gitter".to_string(), '\u{f426}');
+        m.insert("glass-cheers".to_string(), '\u{f79f}');
+        m.insert("glass-martini".to_string(), '\u{f000}');
+        m.insert("glass-martini-alt".to_string(), '\u{f57b}');
+        m.insert("glass-whiskey".to_string(), '\u{f7a0}');
+        m.insert("glasses".to_string(), '\u{f530}');
+        m.insert("glide".to_string(), '\u{f2a5}');
+        m.insert("glide-g".to_string(), '\u{f2a6}');
+        m.insert("globe".to_string(), '\u{f0ac}');
+        m.insert("globe-africa".to_string(), '\u{f57c}');
+        m.insert("globe-americas".to_string(), '\u{f57d}');
+        m.insert("globe-asia".to_string(), '\u{f57e}');
+        m.insert("globe-europe".to_string(), '\u{f7a2}');
+        m.insert("gofore".to_string(), '\u{f3a7}');
+        m.insert("golf-ball".to_string(), '\u{f450}');
+        m.insert("goodreads".to_string(), '\u{f3a8}');
+        m.insert("goodreads-g".to_string(), '\u{f3a9}');
+        m.insert("google".to_string(), '\u{f1a0}');
+        m.insert("google-drive".to_string(), '\u{f3aa}');
+        m.insert("google-play".to_string(), '\u{f3ab}');
+        m.insert("google-plus".to_string(), '\u{f2b3}');
+        m.insert("google-plus-g".to_string(), '\u{f0d5}');
+        m.insert("google-plus-square".to_string(), '\u{f0d4}');
+        m.insert("google-wallet".to_string(), '\u{f1ee}');
+        m.insert("gopuram".to_string(), '\u{f664}');
+        m.insert("graduation-cap".to_string(), '\u{f19d}');
+        m.insert("gratipay".to_string(), '\u{f184}');
+        m.insert("grav".to_string(), '\u{f2d6}');
+        m.insert("greater-than".to_string(), '\u{f531}');
+        m.insert("greater-than-equal".to_string(), '\u{f532}');
+        m.insert("grimace".to_string(), '\u{f57f}');
+        m.insert("grin".to_string(), '\u{f580}');
+        m.insert("grin-alt".to_string(), '\u{f581}');
+        m.insert("grin-beam".to_string(), '\u{f582}');
+        m.insert("grin-beam-sweat".to_string(), '\u{f583}');
+        m.insert("grin-hearts".to_string(), '\u{f584}');
+        m.insert("grin-squint".to_string(), '\u{f585}');
+        m.insert("grin-squint-tears".to_string(), '\u{f586}');
+        m.insert("grin-stars".to_string(), '\u{f587}');
+        m.insert("grin-tears".to_string(), '\u{f588}');
+        m.insert("grin-tongue".to_string(), '\u{f589}');
+        m.insert("grin-tongue-squint".to_string(), '\u{f58a}');
+        m.insert("grin-tongue-wink".to_string(), '\u{f58b}');
+        m.insert("grin-wink".to_string(), '\u{f58c}');
+        m.insert("grip-horizontal".to_string(), '\u{f58d}');
+        m.insert("grip-lines".to_string(), '\u{f7a4}');
+        m.insert("grip-lines-vertical".to_string(), '\u{f7a5}');
+        m.insert("grip-vertical".to_string(), '\u{f58e}');
+        m.insert("gripfire".to_string(), '\u{f3ac}');
+        m.insert("grunt".to_string(), '\u{f3ad}');
+        m.insert("guitar".to_string(), '\u{f7a6}');
+        m.insert("gulp".to_string(), '\u{f3ae}');
+        m.insert("h-square".to_string(), '\u{f0fd}');
+        m.insert("hacker-news".to_string(), '\u{f1d4}');
+        m.insert("hacker-news-square".to_string(), '\u{f3af}');
+        m.insert("hackerrank".to_string(), '\u{f5f7}');
+        m.insert("hamburger".to_string(), '\u{f805}');
+        m.insert("hammer".to_string(), '\u{f6e3}');
+        m.insert("hamsa".to_string(), '\u{f665}');
+        m.insert("hand-holding".to_string(), '\u{f4bd}');
+        m.insert("hand-holding-heart".to_string(), '\u{f4be}');
+        m.insert("hand-holding-usd".to_string(), '\u{f4c0}');
+        m.insert("hand-lizard".to_string(), '\u{f258}');
+        m.insert("hand-middle-finger".to_string(), '\u{f806}');
+        m.insert("hand-paper".to_string(), '\u{f256}');
+        m.insert("hand-peace".to_string(), '\u{f25b}');
+        m.insert("hand-point-down".to_string(), '\u{f0a7}');
+        m.insert("hand-point-left".to_string(), '\u{f0a5}');
+        m.insert("hand-point-right".to_string(), '\u{f0a4}');
+        m.insert("hand-point-up".to_string(), '\u{f0a6}');
+        m.insert("hand-pointer".to_string(), '\u{f25a}');
+        m.insert("hand-rock".to_string(), '\u{f255}');
+        m.insert("hand-scissors".to_string(), '\u{f257}');
+        m.insert("hand-spock".to_string(), '\u{f259}');
+        m.insert("hands".to_string(), '\u{f4c2}');
+        m.insert("hands-helping".to_string(), '\u{f4c4}');
+        m.insert("handshake".to_string(), '\u{f2b5}');
+        m.insert("hanukiah".to_string(), '\u{f6e6}');
+        m.insert("hard-hat".to_string(), '\u{f807}');
+        m.insert("hashtag".to_string(), '\u{f292}');
+        m.insert("hat-cowboy".to_string(), '\u{f8c0}');
+        m.insert("hat-cowboy-side".to_string(), '\u{f8c1}');
+        m.insert("hat-wizard".to_string(), '\u{f6e8}');
+        m.insert("hdd".to_string(), '\u{f0a0}');
+        m.insert("heading".to_string(), '\u{f1dc}');
+        m.insert("headphones".to_string(), '\u{f025}');
+        m.insert("headphones-alt".to_string(), '\u{f58f}');
+        m.insert("headset".to_string(), '\u{f590}');
+        m.insert("heart".to_string(), '\u{f004}');
+        m.insert("heart-broken".to_string(), '\u{f7a9}');
+        m.insert("heartbeat".to_string(), '\u{f21e}');
+        m.insert("helicopter".to_string(), '\u{f533}');
+        m.insert("highlighter".to_string(), '\u{f591}');
+        m.insert("hiking".to_string(), '\u{f6ec}');
+        m.insert("hippo".to_string(), '\u{f6ed}');
+        m.insert("hips".to_string(), '\u{f452}');
+        m.insert("hire-a-helper".to_string(), '\u{f3b0}');
+        m.insert("history".to_string(), '\u{f1da}');
+        m.insert("hockey-puck".to_string(), '\u{f453}');
+        m.insert("holly-berry".to_string(), '\u{f7aa}');
+        m.insert("home".to_string(), '\u{f015}');
+        m.insert("hooli".to_string(), '\u{f427}');
+        m.insert("hornbill".to_string(), '\u{f592}');
+        m.insert("horse".to_string(), '\u{f6f0}');
+        m.insert("horse-head".to_string(), '\u{f7ab}');
+        m.insert("hospital".to_string(), '\u{f0f8}');
+        m.insert("hospital-alt".to_string(), '\u{f47d}');
+        m.insert("hospital-symbol".to_string(), '\u{f47e}');
+        m.insert("hot-tub".to_string(), '\u{f593}');
+        m.insert("hotdog".to_string(), '\u{f80f}');
+        m.insert("hotel".to_string(), '\u{f594}');
+        m.insert("hotjar".to_string(), '\u{f3b1}');
+        m.insert("hourglass".to_string(), '\u{f254}');
+        m.insert("hourglass-end".to_string(), '\u{f253}');
+        m.insert("hourglass-half".to_string(), '\u{f252}');
+        m.insert("hourglass-start".to_string(), '\u{f251}');
+        m.insert("house-damage".to_string(), '\u{f6f1}');
+        m.insert("houzz".to_string(), '\u{f27c}');
+        m.insert("hryvnia".to_string(), '\u{f6f2}');
+        m.insert("html5".to_string(), '\u{f13b}');
+        m.insert("hubspot".to_string(), '\u{f3b2}');
+        m.insert("i-cursor".to_string(), '\u{f246}');
+        m.insert("ice-cream".to_string(), '\u{f810}');
+        m.insert("icicles".to_string(), '\u{f7ad}');
+        m.insert("icons".to_string(), '\u{f86d}');
+        m.insert("id-badge".to_string(), '\u{f2c1}');
+        m.insert("id-card".to_string(), '\u{f2c2}');
+        m.insert("id-card-alt".to_string(), '\u{f47f}');
+        m.insert("ideal".to_string(), '\u{f913}');
+        m.insert("igloo".to_string(), '\u{f7ae}');
+        m.insert("image".to_string(), '\u{f03e}');
+        m.insert("images".to_string(), '\u{f302}');
+        m.insert("imdb".to_string(), '\u{f2d8}');
+        m.insert("inbox".to_string(), '\u{f01c}');
+        m.insert("indent".to_string(), '\u{f03c}');
+        m.insert("industry".to_string(), '\u{f275}');
+        m.insert("infinity".to_string(), '\u{f534}');
+        m.insert("info".to_string(), '\u{f129}');
+        m.insert("info-circle".to_string(), '\u{f05a}');
+        m.insert("instagram".to_string(), '\u{f16d}');
+        m.insert("instagram-square".to_string(), '\u{f955}');
+        m.insert("intercom".to_string(), '\u{f7af}');
+        m.insert("internet-explorer".to_string(), '\u{f26b}');
+        m.insert("invision".to_string(), '\u{f7b0}');
+        m.insert("ioxhost".to_string(), '\u{f208}');
+        m.insert("italic".to_string(), '\u{f033}');
+        m.insert("itch-io".to_string(), '\u{f83a}');
+        m.insert("itunes".to_string(), '\u{f3b4}');
+        m.insert("itunes-note".to_string(), '\u{f3b5}');
+        m.insert("java".to_string(), '\u{f4e4}');
+        m.insert("jedi".to_string(), '\u{f669}');
+        m.insert("jedi-order".to_string(), '\u{f50e}');
+        m.insert("jenkins".to_string(), '\u{f3b6}');
+        m.insert("jira".to_string(), '\u{f7b1}');
+        m.insert("joget".to_string(), '\u{f3b7}');
+        m.insert("joint".to_string(), '\u{f595}');
+        m.insert("joomla".to_string(), '\u{f1aa}');
+        m.insert("journal-whills".to_string(), '\u{f66a}');
+        m.insert("js".to_string(), '\u{f3b8}');
+        m.insert("js-square".to_string(), '\u{f3b9}');
+        m.insert("jsfiddle".to_string(), '\u{f1cc}');
+        m.insert("kaaba".to_string(), '\u{f66b}');
+        m.insert("kaggle".to_string(), '\u{f5fa}');
+        m.insert("key".to_string(), '\u{f084}');
+        m.insert("keybase".to_string(), '\u{f4f5}');
+        m.insert("keyboard".to_string(), '\u{f11c}');
+        m.insert("keycdn".to_string(), '\u{f3ba}');
+        m.insert("khanda".to_string(), '\u{f66d}');
+        m.insert("kickstarter".to_string(), '\u{f3bb}');
+        m.insert("kickstarter-k".to_string(), '\u{f3bc}');
+        m.insert("kiss".to_string(), '\u{f596}');
+        m.insert("kiss-beam".to_string(), '\u{f597}');
+        m.insert("kiss-wink-heart".to_string(), '\u{f598}');
+        m.insert("kiwi-bird".to_string(), '\u{f535}');
+        m.insert("korvue".to_string(), '\u{f42f}');
+        m.insert("landmark".to_string(), '\u{f66f}');
+        m.insert("language".to_string(), '\u{f1ab}');
+        m.insert("laptop".to_string(), '\u{f109}');
+        m.insert("laptop-code".to_string(), '\u{f5fc}');
+        m.insert("laptop-medical".to_string(), '\u{f812}');
+        m.insert("laravel".to_string(), '\u{f3bd}');
+        m.insert("lastfm".to_string(), '\u{f202}');
+        m.insert("lastfm-square".to_string(), '\u{f203}');
+        m.insert("laugh".to_string(), '\u{f599}');
+        m.insert("laugh-beam".to_string(), '\u{f59a}');
+        m.insert("laugh-squint".to_string(), '\u{f59b}');
+        m.insert("laugh-wink".to_string(), '\u{f59c}');
+        m.insert("layer-group".to_string(), '\u{f5fd}');
+        m.insert("leaf".to_string(), '\u{f06c}');
+        m.insert("leanpub".to_string(), '\u{f212}');
+        m.insert("lemon".to_string(), '\u{f094}');
+        m.insert("less".to_string(), '\u{f41d}');
+        m.insert("less-than".to_string(), '\u{f536}');
+        m.insert("less-than-equal".to_string(), '\u{f537}');
+        m.insert("level-down-alt".to_string(), '\u{f3be}');
+        m.insert("level-up-alt".to_string(), '\u{f3bf}');
+        m.insert("life-ring".to_string(), '\u{f1cd}');
+        m.insert("lightbulb".to_string(), '\u{f0eb}');
+        m.insert("line".to_string(), '\u{f3c0}');
+        m.insert("link".to_string(), '\u{f0c1}');
+        m.insert("linkedin".to_string(), '\u{f08c}');
+        m.insert("linkedin-in".to_string(), '\u{f0e1}');
+        m.insert("linode".to_string(), '\u{f2b8}');
+        m.insert("linux".to_string(), '\u{f17c}');
+        m.insert("lira-sign".to_string(), '\u{f195}');
+        m.insert("list".to_string(), '\u{f03a}');
+        m.insert("list-alt".to_string(), '\u{f022}');
+        m.insert("list-ol".to_string(), '\u{f0cb}');
+        m.insert("list-ul".to_string(), '\u{f0ca}');
+        m.insert("location-arrow".to_string(), '\u{f124}');
+        m.insert("lock".to_string(), '\u{f023}');
+        m.insert("lock-open".to_string(), '\u{f3c1}');
+        m.insert("long-arrow-alt-down".to_string(), '\u{f309}');
+        m.insert("long-arrow-alt-left".to_string(), '\u{f30a}');
+        m.insert("long-arrow-alt-right".to_string(), '\u{f30b}');
+        m.insert("long-arrow-alt-up".to_string(), '\u{f30c}');
+        m.insert("low-vision".to_string(), '\u{f2a8}');
+        m.insert("luggage-cart".to_string(), '\u{f59d}');
+        m.insert("lyft".to_string(), '\u{f3c3}');
+        m.insert("magento".to_string(), '\u{f3c4}');
+        m.insert("magic".to_string(), '\u{f0d0}');
+        m.insert("magnet".to_string(), '\u{f076}');
+        m.insert("mail-bulk".to_string(), '\u{f674}');
+        m.insert("mailchimp".to_string(), '\u{f59e}');
+        m.insert("male".to_string(), '\u{f183}');
+        m.insert("mandalorian".to_string(), '\u{f50f}');
+        m.insert("map".to_string(), '\u{f279}');
+        m.insert("map-marked".to_string(), '\u{f59f}');
+        m.insert("map-marked-alt".to_string(), '\u{f5a0}');
+        m.insert("map-marker".to_string(), '\u{f041}');
+        m.insert("map-marker-alt".to_string(), '\u{f3c5}');
+        m.insert("map-pin".to_string(), '\u{f276}');
+        m.insert("map-signs".to_string(), '\u{f277}');
+        m.insert("markdown".to_string(), '\u{f60f}');
+        m.insert("marker".to_string(), '\u{f5a1}');
+        m.insert("mars".to_string(), '\u{f222}');
+        m.insert("mars-double".to_string(), '\u{f227}');
+        m.insert("mars-stroke".to_string(), '\u{f229}');
+        m.insert("mars-stroke-h".to_string(), '\u{f22b}');
+        m.insert("mars-stroke-v".to_string(), '\u{f22a}');
+        m.insert("mask".to_string(), '\u{f6fa}');
+        m.insert("mastodon".to_string(), '\u{f4f6}');
+        m.insert("maxcdn".to_string(), '\u{f136}');
+        m.insert("mdb".to_string(), '\u{f8ca}');
+        m.insert("medal".to_string(), '\u{f5a2}');
+        m.insert("medapps".to_string(), '\u{f3c6}');
+        m.insert("medium".to_string(), '\u{f23a}');
+        m.insert("medium-m".to_string(), '\u{f3c7}');
+        m.insert("medkit".to_string(), '\u{f0fa}');
+        m.insert("medrt".to_string(), '\u{f3c8}');
+        m.insert("meetup".to_string(), '\u{f2e0}');
+        m.insert("megaport".to_string(), '\u{f5a3}');
+        m.insert("meh".to_string(), '\u{f11a}');
+        m.insert("meh-blank".to_string(), '\u{f5a4}');
+        m.insert("meh-rolling-eyes".to_string(), '\u{f5a5}');
+        m.insert("memory".to_string(), '\u{f538}');
+        m.insert("mendeley".to_string(), '\u{f7b3}');
+        m.insert("menorah".to_string(), '\u{f676}');
+        m.insert("mercury".to_string(), '\u{f223}');
+        m.insert("meteor".to_string(), '\u{f753}');
+        m.insert("microblog".to_string(), '\u{f91a}');
+        m.insert("microchip".to_string(), '\u{f2db}');
+        m.insert("microphone".to_string(), '\u{f130}');
+        m.insert("microphone-alt".to_string(), '\u{f3c9}');
+        m.insert("microphone-alt-slash".to_string(), '\u{f539}');
+        m.insert("microphone-slash".to_string(), '\u{f131}');
+        m.insert("microscope".to_string(), '\u{f610}');
+        m.insert("microsoft".to_string(), '\u{f3ca}');
+        m.insert("minus".to_string(), '\u{f068}');
+        m.insert("minus-circle".to_string(), '\u{f056}');
+        m.insert("minus-square".to_string(), '\u{f146}');
+        m.insert("mitten".to_string(), '\u{f7b5}');
+        m.insert("mix".to_string(), '\u{f3cb}');
+        m.insert("mixcloud".to_string(), '\u{f289}');
+        m.insert("mixer".to_string(), '\u{f956}');
+        m.insert("mizuni".to_string(), '\u{f3cc}');
+        m.insert("mobile".to_string(), '\u{f10b}');
+        m.insert("mobile-alt".to_string(), '\u{f3cd}');
+        m.insert("modx".to_string(), '\u{f285}');
+        m.insert("monero".to_string(), '\u{f3d0}');
+        m.insert("money-bill".to_string(), '\u{f0d6}');
+        m.insert("money-bill-alt".to_string(), '\u{f3d1}');
+        m.insert("money-bill-wave".to_string(), '\u{f53a}');
+        m.insert("money-bill-wave-alt".to_string(), '\u{f53b}');
+        m.insert("money-check".to_string(), '\u{f53c}');
+        m.insert("money-check-alt".to_string(), '\u{f53d}');
+        m.insert("monument".to_string(), '\u{f5a6}');
+        m.insert("moon".to_string(), '\u{f186}');
+        m.insert("mortar-pestle".to_string(), '\u{f5a7}');
+        m.insert("mosque".to_string(), '\u{f678}');
+        m.insert("motorcycle".to_string(), '\u{f21c}');
+        m.insert("mountain".to_string(), '\u{f6fc}');
+        m.insert("mouse".to_string(), '\u{f8cc}');
+        m.insert("mouse-pointer".to_string(), '\u{f245}');
+        m.insert("mug-hot".to_string(), '\u{f7b6}');
+        m.insert("music".to_string(), '\u{f001}');
+        m.insert("napster".to_string(), '\u{f3d2}');
+        m.insert("neos".to_string(), '\u{f612}');
+        m.insert("network-wired".to_string(), '\u{f6ff}');
+        m.insert("neuter".to_string(), '\u{f22c}');
+        m.insert("newspaper".to_string(), '\u{f1ea}');
+        m.insert("nimblr".to_string(), '\u{f5a8}');
+        m.insert("node".to_string(), '\u{f419}');
+        m.insert("node-js".to_string(), '\u{f3d3}');
+        m.insert("not-equal".to_string(), '\u{f53e}');
+        m.insert("notes-medical".to_string(), '\u{f481}');
+        m.insert("npm".to_string(), '\u{f3d4}');
+        m.insert("ns8".to_string(), '\u{f3d5}');
+        m.insert("nutritionix".to_string(), '\u{f3d6}');
+        m.insert("object-group".to_string(), '\u{f247}');
+        m.insert("object-ungroup".to_string(), '\u{f248}');
+        m.insert("odnoklassniki".to_string(), '\u{f263}');
+        m.insert("odnoklassniki-square".to_string(), '\u{f264}');
+        m.insert("oil-can".to_string(), '\u{f613}');
+        m.insert("old-republic".to_string(), '\u{f510}');
+        m.insert("om".to_string(), '\u{f679}');
+        m.insert("opencart".to_string(), '\u{f23d}');
+        m.insert("openid".to_string(), '\u{f19b}');
+        m.insert("opera".to_string(), '\u{f26a}');
+        m.insert("optin-monster".to_string(), '\u{f23c}');
+        m.insert("orcid".to_string(), '\u{f8d2}');
+        m.insert("osi".to_string(), '\u{f41a}');
+        m.insert("otter".to_string(), '\u{f700}');
+        m.insert("outdent".to_string(), '\u{f03b}');
+        m.insert("page4".to_string(), '\u{f3d7}');
+        m.insert("pagelines".to_string(), '\u{f18c}');
+        m.insert("pager".to_string(), '\u{f815}');
+        m.insert("paint-brush".to_string(), '\u{f1fc}');
+        m.insert("paint-roller".to_string(), '\u{f5aa}');
+        m.insert("palette".to_string(), '\u{f53f}');
+        m.insert("palfed".to_string(), '\u{f3d8}');
+        m.insert("pallet".to_string(), '\u{f482}');
+        m.insert("paper-plane".to_string(), '\u{f1d8}');
+        m.insert("paperclip".to_string(), '\u{f0c6}');
+        m.insert("parachute-box".to_string(), '\u{f4cd}');
+        m.insert("paragraph".to_string(), '\u{f1dd}');
+        m.insert("parking".to_string(), '\u{f540}');
+        m.insert("passport".to_string(), '\u{f5ab}');
+        m.insert("pastafarianism".to_string(), '\u{f67b}');
+        m.insert("paste".to_string(), '\u{f0ea}');
+        m.insert("patreon".to_string(), '\u{f3d9}');
+        m.insert("pause".to_string(), '\u{f04c}');
+        m.insert("pause-circle".to_string(), '\u{f28b}');
+        m.insert("paw".to_string(), '\u{f1b0}');
+        m.insert("paypal".to_string(), '\u{f1ed}');
+        m.insert("peace".to_string(), '\u{f67c}');
+        m.insert("pen".to_string(), '\u{f304}');
+        m.insert("pen-alt".to_string(), '\u{f305}');
+        m.insert("pen-fancy".to_string(), '\u{f5ac}');
+        m.insert("pen-nib".to_string(), '\u{f5ad}');
+        m.insert("pen-square".to_string(), '\u{f14b}');
+        m.insert("pencil-alt".to_string(), '\u{f303}');
+        m.insert("pencil-ruler".to_string(), '\u{f5ae}');
+        m.insert("penny-arcade".to_string(), '\u{f704}');
+        m.insert("people-carry".to_string(), '\u{f4ce}');
+        m.insert("pepper-hot".to_string(), '\u{f816}');
+        m.insert("percent".to_string(), '\u{f295}');
+        m.insert("percentage".to_string(), '\u{f541}');
+        m.insert("periscope".to_string(), '\u{f3da}');
+        m.insert("person-booth".to_string(), '\u{f756}');
+        m.insert("phabricator".to_string(), '\u{f3db}');
+        m.insert("phoenix-framework".to_string(), '\u{f3dc}');
+        m.insert("phoenix-squadron".to_string(), '\u{f511}');
+        m.insert("phone".to_string(), '\u{f095}');
+        m.insert("phone-alt".to_string(), '\u{f879}');
+        m.insert("phone-slash".to_string(), '\u{f3dd}');
+        m.insert("phone-square".to_string(), '\u{f098}');
+        m.insert("phone-square-alt".to_string(), '\u{f87b}');
+        m.insert("phone-volume".to_string(), '\u{f2a0}');
+        m.insert("photo-video".to_string(), '\u{f87c}');
+        m.insert("php".to_string(), '\u{f457}');
+        m.insert("pied-piper".to_string(), '\u{f2ae}');
+        m.insert("pied-piper-alt".to_string(), '\u{f1a8}');
+        m.insert("pied-piper-hat".to_string(), '\u{f4e5}');
+        m.insert("pied-piper-pp".to_string(), '\u{f1a7}');
+        m.insert("pied-piper-square".to_string(), '\u{f91e}');
+        m.insert("piggy-bank".to_string(), '\u{f4d3}');
+        m.insert("pills".to_string(), '\u{f484}');
+        m.insert("pinterest".to_string(), '\u{f0d2}');
+        m.insert("pinterest-p".to_string(), '\u{f231}');
+        m.insert("pinterest-square".to_string(), '\u{f0d3}');
+        m.insert("pizza-slice".to_string(), '\u{f818}');
+        m.insert("place-of-worship".to_string(), '\u{f67f}');
+        m.insert("plane".to_string(), '\u{f072}');
+        m.insert("plane-arrival".to_string(), '\u{f5af}');
+        m.insert("plane-departure".to_string(), '\u{f5b0}');
+        m.insert("play".to_string(), '\u{f04b}');
+        m.insert("play-circle".to_string(), '\u{f144}');
+        m.insert("playstation".to_string(), '\u{f3df}');
+        m.insert("plug".to_string(), '\u{f1e6}');
+        m.insert("plus".to_string(), '\u{f067}');
+        m.insert("plus-circle".to_string(), '\u{f055}');
+        m.insert("plus-square".to_string(), '\u{f0fe}');
+        m.insert("podcast".to_string(), '\u{f2ce}');
+        m.insert("poll".to_string(), '\u{f681}');
+        m.insert("poll-h".to_string(), '\u{f682}');
+        m.insert("poo".to_string(), '\u{f2fe}');
+        m.insert("poo-storm".to_string(), '\u{f75a}');
+        m.insert("poop".to_string(), '\u{f619}');
+        m.insert("portrait".to_string(), '\u{f3e0}');
+        m.insert("pound-sign".to_string(), '\u{f154}');
+        m.insert("power-off".to_string(), '\u{f011}');
+        m.insert("pray".to_string(), '\u{f683}');
+        m.insert("praying-hands".to_string(), '\u{f684}');
+        m.insert("prescription".to_string(), '\u{f5b1}');
+        m.insert("prescription-bottle".to_string(), '\u{f485}');
+        m.insert("prescription-bottle-alt".to_string(), '\u{f486}');
+        m.insert("print".to_string(), '\u{f02f}');
+        m.insert("procedures".to_string(), '\u{f487}');
+        m.insert("product-hunt".to_string(), '\u{f288}');
+        m.insert("project-diagram".to_string(), '\u{f542}');
+        m.insert("pushed".to_string(), '\u{f3e1}');
+        m.insert("puzzle-piece".to_string(), '\u{f12e}');
+        m.insert("python".to_string(), '\u{f3e2}');
+        m.insert("qq".to_string(), '\u{f1d6}');
+        m.insert("qrcode".to_string(), '\u{f029}');
+        m.insert("question".to_string(), '\u{f128}');
+        m.insert("question-circle".to_string(), '\u{f059}');
+        m.insert("quidditch".to_string(), '\u{f458}');
+        m.insert("quinscape".to_string(), '\u{f459}');
+        m.insert("quora".to_string(), '\u{f2c4}');
+        m.insert("quote-left".to_string(), '\u{f10d}');
+        m.insert("quote-right".to_string(), '\u{f10e}');
+        m.insert("quran".to_string(), '\u{f687}');
+        m.insert("r-project".to_string(), '\u{f4f7}');
+        m.insert("radiation".to_string(), '\u{f7b9}');
+        m.insert("radiation-alt".to_string(), '\u{f7ba}');
+        m.insert("rainbow".to_string(), '\u{f75b}');
+        m.insert("random".to_string(), '\u{f074}');
+        m.insert("raspberry-pi".to_string(), '\u{f7bb}');
+        m.insert("ravelry".to_string(), '\u{f2d9}');
+        m.insert("react".to_string(), '\u{f41b}');
+        m.insert("reacteurope".to_string(), '\u{f75d}');
+        m.insert("readme".to_string(), '\u{f4d5}');
+        m.insert("rebel".to_string(), '\u{f1d0}');
+        m.insert("receipt".to_string(), '\u{f543}');
+        m.insert("record-vinyl".to_string(), '\u{f8d9}');
+        m.insert("recycle".to_string(), '\u{f1b8}');
+        m.insert("red-river".to_string(), '\u{f3e3}');
+        m.insert("reddit".to_string(), '\u{f1a1}');
+        m.insert("reddit-alien".to_string(), '\u{f281}');
+        m.insert("reddit-square".to_string(), '\u{f1a2}');
+        m.insert("redhat".to_string(), '\u{f7bc}');
+        m.insert("redo".to_string(), '\u{f01e}');
+        m.insert("redo-alt".to_string(), '\u{f2f9}');
+        m.insert("registered".to_string(), '\u{f25d}');
+        m.insert("remove-format".to_string(), '\u{f87d}');
+        m.insert("renren".to_string(), '\u{f18b}');
+        m.insert("reply".to_string(), '\u{f3e5}');
+        m.insert("reply-all".to_string(), '\u{f122}');
+        m.insert("replyd".to_string(), '\u{f3e6}');
+        m.insert("republican".to_string(), '\u{f75e}');
+        m.insert("researchgate".to_string(), '\u{f4f8}');
+        m.insert("resolving".to_string(), '\u{f3e7}');
+        m.insert("restroom".to_string(), '\u{f7bd}');
+        m.insert("retweet".to_string(), '\u{f079}');
+        m.insert("rev".to_string(), '\u{f5b2}');
+        m.insert("ribbon".to_string(), '\u{f4d6}');
+        m.insert("ring".to_string(), '\u{f70b}');
+        m.insert("road".to_string(), '\u{f018}');
+        m.insert("robot".to_string(), '\u{f544}');
+        m.insert("rocket".to_string(), '\u{f135}');
+        m.insert("rocketchat".to_string(), '\u{f3e8}');
+        m.insert("rockrms".to_string(), '\u{f3e9}');
+        m.insert("route".to_string(), '\u{f4d7}');
+        m.insert("rss".to_string(), '\u{f09e}');
+        m.insert("rss-square".to_string(), '\u{f143}');
+        m.insert("ruble-sign".to_string(), '\u{f158}');
+        m.insert("ruler".to_string(), '\u{f545}');
+        m.insert("ruler-combined".to_string(), '\u{f546}');
+        m.insert("ruler-horizontal".to_string(), '\u{f547}');
+        m.insert("ruler-vertical".to_string(), '\u{f548}');
+        m.insert("running".to_string(), '\u{f70c}');
+        m.insert("rupee-sign".to_string(), '\u{f156}');
+        m.insert("sad-cry".to_string(), '\u{f5b3}');
+        m.insert("sad-tear".to_string(), '\u{f5b4}');
+        m.insert("safari".to_string(), '\u{f267}');
+        m.insert("salesforce".to_string(), '\u{f83b}');
+        m.insert("sass".to_string(), '\u{f41e}');
+        m.insert("satellite".to_string(), '\u{f7bf}');
+        m.insert("satellite-dish".to_string(), '\u{f7c0}');
+        m.insert("save".to_string(), '\u{f0c7}');
+        m.insert("schlix".to_string(), '\u{f3ea}');
+        m.insert("school".to_string(), '\u{f549}');
+        m.insert("screwdriver".to_string(), '\u{f54a}');
+        m.insert("scribd".to_string(), '\u{f28a}');
+        m.insert("scroll".to_string(), '\u{f70e}');
+        m.insert("sd-card".to_string(), '\u{f7c2}');
+        m.insert("search".to_string(), '\u{f002}');
+        m.insert("search-dollar".to_string(), '\u{f688}');
+        m.insert("search-location".to_string(), '\u{f689}');
+        m.insert("search-minus".to_string(), '\u{f010}');
+        m.insert("search-plus".to_string(), '\u{f00e}');
+        m.insert("searchengin".to_string(), '\u{f3eb}');
+        m.insert("seedling".to_string(), '\u{f4d8}');
+        m.insert("sellcast".to_string(), '\u{f2da}');
+        m.insert("sellsy".to_string(), '\u{f213}');
+        m.insert("server".to_string(), '\u{f233}');
+        m.insert("servicestack".to_string(), '\u{f3ec}');
+        m.insert("shapes".to_string(), '\u{f61f}');
+        m.insert("share".to_string(), '\u{f064}');
+        m.insert("share-alt".to_string(), '\u{f1e0}');
+        m.insert("share-alt-square".to_string(), '\u{f1e1}');
+        m.insert("share-square".to_string(), '\u{f14d}');
+        m.insert("shekel-sign".to_string(), '\u{f20b}');
+        m.insert("shield-alt".to_string(), '\u{f3ed}');
+        m.insert("ship".to_string(), '\u{f21a}');
+        m.insert("shipping-fast".to_string(), '\u{f48b}');
+        m.insert("shirtsinbulk".to_string(), '\u{f214}');
+        m.insert("shoe-prints".to_string(), '\u{f54b}');
+        m.insert("shopify".to_string(), '\u{f957}');
+        m.insert("shopping-bag".to_string(), '\u{f290}');
+        m.insert("shopping-basket".to_string(), '\u{f291}');
+        m.insert("shopping-cart".to_string(), '\u{f07a}');
+        m.insert("shopware".to_string(), '\u{f5b5}');
+        m.insert("shower".to_string(), '\u{f2cc}');
+        m.insert("shuttle-van".to_string(), '\u{f5b6}');
+        m.insert("sign".to_string(), '\u{f4d9}');
+        m.insert("sign-in-alt".to_string(), '\u{f2f6}');
+        m.insert("sign-language".to_string(), '\u{f2a7}');
+        m.insert("sign-out-alt".to_string(), '\u{f2f5}');
+        m.insert("signal".to_string(), '\u{f012}');
+        m.insert("signature".to_string(), '\u{f5b7}');
+        m.insert("sim-card".to_string(), '\u{f7c4}');
+        m.insert("simplybuilt".to_string(), '\u{f215}');
+        m.insert("sistrix".to_string(), '\u{f3ee}');
+        m.insert("sitemap".to_string(), '\u{f0e8}');
+        m.insert("sith".to_string(), '\u{f512}');
+        m.insert("skating".to_string(), '\u{f7c5}');
+        m.insert("sketch".to_string(), '\u{f7c6}');
+        m.insert("skiing".to_string(), '\u{f7c9}');
+        m.insert("skiing-nordic".to_string(), '\u{f7ca}');
+        m.insert("skull".to_string(), '\u{f54c}');
+        m.insert("skull-crossbones".to_string(), '\u{f714}');
+        m.insert("skyatlas".to_string(), '\u{f216}');
+        m.insert("skype".to_string(), '\u{f17e}');
+        m.insert("slack".to_string(), '\u{f198}');
+        m.insert("slack-hash".to_string(), '\u{f3ef}');
+        m.insert("slash".to_string(), '\u{f715}');
+        m.insert("sleigh".to_string(), '\u{f7cc}');
+        m.insert("sliders-h".to_string(), '\u{f1de}');
+        m.insert("slideshare".to_string(), '\u{f1e7}');
+        m.insert("smile".to_string(), '\u{f118}');
+        m.insert("smile-beam".to_string(), '\u{f5b8}');
+        m.insert("smile-wink".to_string(), '\u{f4da}');
+        m.insert("smog".to_string(), '\u{f75f}');
+        m.insert("smoking".to_string(), '\u{f48d}');
+        m.insert("smoking-ban".to_string(), '\u{f54d}');
+        m.insert("sms".to_string(), '\u{f7cd}');
+        m.insert("snapchat".to_string(), '\u{f2ab}');
+        m.insert("snapchat-ghost".to_string(), '\u{f2ac}');
+        m.insert("snapchat-square".to_string(), '\u{f2ad}');
+        m.insert("snowboarding".to_string(), '\u{f7ce}');
+        m.insert("snowflake".to_string(), '\u{f2dc}');
+        m.insert("snowman".to_string(), '\u{f7d0}');
+        m.insert("snowplow".to_string(), '\u{f7d2}');
+        m.insert("socks".to_string(), '\u{f696}');
+        m.insert("solar-panel".to_string(), '\u{f5ba}');
+        m.insert("sort".to_string(), '\u{f0dc}');
+        m.insert("sort-alpha-down".to_string(), '\u{f15d}');
+        m.insert("sort-alpha-down-alt".to_string(), '\u{f881}');
+        m.insert("sort-alpha-up".to_string(), '\u{f15e}');
+        m.insert("sort-alpha-up-alt".to_string(), '\u{f882}');
+        m.insert("sort-amount-down".to_string(), '\u{f160}');
+        m.insert("sort-amount-down-alt".to_string(), '\u{f884}');
+        m.insert("sort-amount-up".to_string(), '\u{f161}');
+        m.insert("sort-amount-up-alt".to_string(), '\u{f885}');
+        m.insert("sort-down".to_string(), '\u{f0dd}');
+        m.insert("sort-numeric-down".to_string(), '\u{f162}');
+        m.insert("sort-numeric-down-alt".to_string(), '\u{f886}');
+        m.insert("sort-numeric-up".to_string(), '\u{f163}');
+        m.insert("sort-numeric-up-alt".to_string(), '\u{f887}');
+        m.insert("sort-up".to_string(), '\u{f0de}');
+        m.insert("soundcloud".to_string(), '\u{f1be}');
+        m.insert("sourcetree".to_string(), '\u{f7d3}');
+        m.insert("spa".to_string(), '\u{f5bb}');
+        m.insert("space-shuttle".to_string(), '\u{f197}');
+        m.insert("speakap".to_string(), '\u{f3f3}');
+        m.insert("speaker-deck".to_string(), '\u{f83c}');
+        m.insert("spell-check".to_string(), '\u{f891}');
+        m.insert("spider".to_string(), '\u{f717}');
+        m.insert("spinner".to_string(), '\u{f110}');
+        m.insert("splotch".to_string(), '\u{f5bc}');
+        m.insert("spotify".to_string(), '\u{f1bc}');
+        m.insert("spray-can".to_string(), '\u{f5bd}');
+        m.insert("square".to_string(), '\u{f0c8}');
+        m.insert("square-full".to_string(), '\u{f45c}');
+        m.insert("square-root-alt".to_string(), '\u{f698}');
+        m.insert("squarespace".to_string(), '\u{f5be}');
+        m.insert("stack-exchange".to_string(), '\u{f18d}');
+        m.insert("stack-overflow".to_string(), '\u{f16c}');
+        m.insert("stackpath".to_string(), '\u{f842}');
+        m.insert("stamp".to_string(), '\u{f5bf}');
+        m.insert("star".to_string(), '\u{f005}');
+        m.insert("star-and-crescent".to_string(), '\u{f699}');
+        m.insert("star-half".to_string(), '\u{f089}');
+        m.insert("star-half-alt".to_string(), '\u{f5c0}');
+        m.insert("star-of-david".to_string(), '\u{f69a}');
+        m.insert("star-of-life".to_string(), '\u{f621}');
+        m.insert("staylinked".to_string(), '\u{f3f5}');
+        m.insert("steam".to_string(), '\u{f1b6}');
+        m.insert("steam-square".to_string(), '\u{f1b7}');
+        m.insert("steam-symbol".to_string(), '\u{f3f6}');
+        m.insert("step-backward".to_string(), '\u{f048}');
+        m.insert("step-forward".to_string(), '\u{f051}');
+        m.insert("stethoscope".to_string(), '\u{f0f1}');
+        m.insert("sticker-mule".to_string(), '\u{f3f7}');
+        m.insert("sticky-note".to_string(), '\u{f249}');
+        m.insert("stop".to_string(), '\u{f04d}');
+        m.insert("stop-circle".to_string(), '\u{f28d}');
+        m.insert("stopwatch".to_string(), '\u{f2f2}');
+        m.insert("store".to_string(), '\u{f54e}');
+        m.insert("store-alt".to_string(), '\u{f54f}');
+        m.insert("strava".to_string(), '\u{f428}');
+        m.insert("stream".to_string(), '\u{f550}');
+        m.insert("street-view".to_string(), '\u{f21d}');
+        m.insert("strikethrough".to_string(), '\u{f0cc}');
+        m.insert("stripe".to_string(), '\u{f429}');
+        m.insert("stripe-s".to_string(), '\u{f42a}');
+        m.insert("stroopwafel".to_string(), '\u{f551}');
+        m.insert("studiovinari".to_string(), '\u{f3f8}');
+        m.insert("stumbleupon".to_string(), '\u{f1a4}');
+        m.insert("stumbleupon-circle".to_string(), '\u{f1a3}');
+        m.insert("subscript".to_string(), '\u{f12c}');
+        m.insert("subway".to_string(), '\u{f239}');
+        m.insert("suitcase".to_string(), '\u{f0f2}');
+        m.insert("suitcase-rolling".to_string(), '\u{f5c1}');
+        m.insert("sun".to_string(), '\u{f185}');
+        m.insert("superpowers".to_string(), '\u{f2dd}');
+        m.insert("superscript".to_string(), '\u{f12b}');
+        m.insert("supple".to_string(), '\u{f3f9}');
+        m.insert("surprise".to_string(), '\u{f5c2}');
+        m.insert("suse".to_string(), '\u{f7d6}');
+        m.insert("swatchbook".to_string(), '\u{f5c3}');
+        m.insert("swift".to_string(), '\u{f8e1}');
+        m.insert("swimmer".to_string(), '\u{f5c4}');
+        m.insert("swimming-pool".to_string(), '\u{f5c5}');
+        m.insert("symfony".to_string(), '\u{f83d}');
+        m.insert("synagogue".to_string(), '\u{f69b}');
+        m.insert("sync".to_string(), '\u{f021}');
+        m.insert("sync-alt".to_string(), '\u{f2f1}');
+        m.insert("syringe".to_string(), '\u{f48e}');
+        m.insert("table".to_string(), '\u{f0ce}');
+        m.insert("table-tennis".to_string(), '\u{f45d}');
+        m.insert("tablet".to_string(), '\u{f10a}');
+        m.insert("tablet-alt".to_string(), '\u{f3fa}');
+        m.insert("tablets".to_string(), '\u{f490}');
+        m.insert("tachometer-alt".to_string(), '\u{f3fd}');
+        m.insert("tag".to_string(), '\u{f02b}');
+        m.insert("tags".to_string(), '\u{f02c}');
+        m.insert("tape".to_string(), '\u{f4db}');
+        m.insert("tasks".to_string(), '\u{f0ae}');
+        m.insert("taxi".to_string(), '\u{f1ba}');
+        m.insert("teamspeak".to_string(), '\u{f4f9}');
+        m.insert("teeth".to_string(), '\u{f62e}');
+        m.insert("teeth-open".to_string(), '\u{f62f}');
+        m.insert("telegram".to_string(), '\u{f2c6}');
+        m.insert("telegram-plane".to_string(), '\u{f3fe}');
+        m.insert("temperature-high".to_string(), '\u{f769}');
+        m.insert("temperature-low".to_string(), '\u{f76b}');
+        m.insert("tencent-weibo".to_string(), '\u{f1d5}');
+        m.insert("tenge".to_string(), '\u{f7d7}');
+        m.insert("terminal".to_string(), '\u{f120}');
+        m.insert("text-height".to_string(), '\u{f034}');
+        m.insert("text-width".to_string(), '\u{f035}');
+        m.insert("th".to_string(), '\u{f00a}');
+        m.insert("th-large".to_string(), '\u{f009}');
+        m.insert("th-list".to_string(), '\u{f00b}');
+        m.insert("the-red-yeti".to_string(), '\u{f69d}');
+        m.insert("theater-masks".to_string(), '\u{f630}');
+        m.insert("themeco".to_string(), '\u{f5c6}');
+        m.insert("themeisle".to_string(), '\u{f2b2}');
+        m.insert("thermometer".to_string(), '\u{f491}');
+        m.insert("thermometer-empty".to_string(), '\u{f2cb}');
+        m.insert("thermometer-full".to_string(), '\u{f2c7}');
+        m.insert("thermometer-half".to_string(), '\u{f2c9}');
+        m.insert("thermometer-quarter".to_string(), '\u{f2ca}');
+        m.insert("thermometer-three-quarters".to_string(), '\u{f2c8}');
+        m.insert("think-peaks".to_string(), '\u{f731}');
+        m.insert("thumbs-down".to_string(), '\u{f165}');
+        m.insert("thumbs-up".to_string(), '\u{f164}');
+        m.insert("thumbtack".to_string(), '\u{f08d}');
+        m.insert("ticket-alt".to_string(), '\u{f3ff}');
+        m.insert("times".to_string(), '\u{f00d}');
+        m.insert("times-circle".to_string(), '\u{f057}');
+        m.insert("tint".to_string(), '\u{f043}');
+        m.insert("tint-slash".to_string(), '\u{f5c7}');
+        m.insert("tired".to_string(), '\u{f5c8}');
+        m.insert("toggle-off".to_string(), '\u{f204}');
+        m.insert("toggle-on".to_string(), '\u{f205}');
+        m.insert("toilet".to_string(), '\u{f7d8}');
+        m.insert("toilet-paper".to_string(), '\u{f71e}');
+        m.insert("toolbox".to_string(), '\u{f552}');
+        m.insert("tools".to_string(), '\u{f7d9}');
+        m.insert("tooth".to_string(), '\u{f5c9}');
+        m.insert("torah".to_string(), '\u{f6a0}');
+        m.insert("torii-gate".to_string(), '\u{f6a1}');
+        m.insert("tractor".to_string(), '\u{f722}');
+        m.insert("trade-federation".to_string(), '\u{f513}');
+        m.insert("trademark".to_string(), '\u{f25c}');
+        m.insert("traffic-light".to_string(), '\u{f637}');
+        m.insert("trailer".to_string(), '\u{f941}');
+        m.insert("train".to_string(), '\u{f238}');
+        m.insert("tram".to_string(), '\u{f7da}');
+        m.insert("transgender".to_string(), '\u{f224}');
+        m.insert("transgender-alt".to_string(), '\u{f225}');
+        m.insert("trash".to_string(), '\u{f1f8}');
+        m.insert("trash-alt".to_string(), '\u{f2ed}');
+        m.insert("trash-restore".to_string(), '\u{f829}');
+        m.insert("trash-restore-alt".to_string(), '\u{f82a}');
+        m.insert("tree".to_string(), '\u{f1bb}');
+        m.insert("trello".to_string(), '\u{f181}');
+        m.insert("tripadvisor".to_string(), '\u{f262}');
+        m.insert("trophy".to_string(), '\u{f091}');
+        m.insert("truck".to_string(), '\u{f0d1}');
+        m.insert("truck-loading".to_string(), '\u{f4de}');
+        m.insert("truck-monster".to_string(), '\u{f63b}');
+        m.insert("truck-moving".to_string(), '\u{f4df}');
+        m.insert("truck-pickup".to_string(), '\u{f63c}');
+        m.insert("tshirt".to_string(), '\u{f553}');
+        m.insert("tty".to_string(), '\u{f1e4}');
+        m.insert("tumblr".to_string(), '\u{f173}');
+        m.insert("tumblr-square".to_string(), '\u{f174}');
+        m.insert("tv".to_string(), '\u{f26c}');
+        m.insert("twitch".to_string(), '\u{f1e8}');
+        m.insert("twitter".to_string(), '\u{f099}');
+        m.insert("twitter-square".to_string(), '\u{f081}');
+        m.insert("typo3".to_string(), '\u{f42b}');
+        m.insert("uber".to_string(), '\u{f402}');
+        m.insert("ubuntu".to_string(), '\u{f7df}');
+        m.insert("uikit".to_string(), '\u{f403}');
+        m.insert("umbraco".to_string(), '\u{f8e8}');
+        m.insert("umbrella".to_string(), '\u{f0e9}');
+        m.insert("umbrella-beach".to_string(), '\u{f5ca}');
+        m.insert("underline".to_string(), '\u{f0cd}');
+        m.insert("undo".to_string(), '\u{f0e2}');
+        m.insert("undo-alt".to_string(), '\u{f2ea}');
+        m.insert("uniregistry".to_string(), '\u{f404}');
+        m.insert("unity".to_string(), '\u{f949}');
+        m.insert("universal-access".to_string(), '\u{f29a}');
+        m.insert("university".to_string(), '\u{f19c}');
+        m.insert("unlink".to_string(), '\u{f127}');
+        m.insert("unlock".to_string(), '\u{f09c}');
+        m.insert("unlock-alt".to_string(), '\u{f13e}');
+        m.insert("untappd".to_string(), '\u{f405}');
+        m.insert("upload".to_string(), '\u{f093}');
+        m.insert("ups".to_string(), '\u{f7e0}');
+        m.insert("usb".to_string(), '\u{f287}');
+        m.insert("user".to_string(), '\u{f007}');
+        m.insert("user-alt".to_string(), '\u{f406}');
+        m.insert("user-alt-slash".to_string(), '\u{f4fa}');
+        m.insert("user-astronaut".to_string(), '\u{f4fb}');
+        m.insert("user-check".to_string(), '\u{f4fc}');
+        m.insert("user-circle".to_string(), '\u{f2bd}');
+        m.insert("user-clock".to_string(), '\u{f4fd}');
+        m.insert("user-cog".to_string(), '\u{f4fe}');
+        m.insert("user-edit".to_string(), '\u{f4ff}');
+        m.insert("user-friends".to_string(), '\u{f500}');
+        m.insert("user-graduate".to_string(), '\u{f501}');
+        m.insert("user-injured".to_string(), '\u{f728}');
+        m.insert("user-lock".to_string(), '\u{f502}');
+        m.insert("user-md".to_string(), '\u{f0f0}');
+        m.insert("user-minus".to_string(), '\u{f503}');
+        m.insert("user-ninja".to_string(), '\u{f504}');
+        m.insert("user-nurse".to_string(), '\u{f82f}');
+        m.insert("user-plus".to_string(), '\u{f234}');
+        m.insert("user-secret".to_string(), '\u{f21b}');
+        m.insert("user-shield".to_string(), '\u{f505}');
+        m.insert("user-slash".to_string(), '\u{f506}');
+        m.insert("user-tag".to_string(), '\u{f507}');
+        m.insert("user-tie".to_string(), '\u{f508}');
+        m.insert("user-times".to_string(), '\u{f235}');
+        m.insert("users".to_string(), '\u{f0c0}');
+        m.insert("users-cog".to_string(), '\u{f509}');
+        m.insert("usps".to_string(), '\u{f7e1}');
+        m.insert("ussunnah".to_string(), '\u{f407}');
+        m.insert("utensil-spoon".to_string(), '\u{f2e5}');
+        m.insert("utensils".to_string(), '\u{f2e7}');
+        m.insert("vaadin".to_string(), '\u{f408}');
+        m.insert("vector-square".to_string(), '\u{f5cb}');
+        m.insert("venus".to_string(), '\u{f221}');
+        m.insert("venus-double".to_string(), '\u{f226}');
+        m.insert("venus-mars".to_string(), '\u{f228}');
+        m.insert("viacoin".to_string(), '\u{f237}');
+        m.insert("viadeo".to_string(), '\u{f2a9}');
+        m.insert("viadeo-square".to_string(), '\u{f2aa}');
+        m.insert("vial".to_string(), '\u{f492}');
+        m.insert("vials".to_string(), '\u{f493}');
+        m.insert("viber".to_string(), '\u{f409}');
+        m.insert("video".to_string(), '\u{f03d}');
+        m.insert("video-slash".to_string(), '\u{f4e2}');
+        m.insert("vihara".to_string(), '\u{f6a7}');
+        m.insert("vimeo".to_string(), '\u{f40a}');
+        m.insert("vimeo-square".to_string(), '\u{f194}');
+        m.insert("vimeo-v".to_string(), '\u{f27d}');
+        m.insert("vine".to_string(), '\u{f1ca}');
+        m.insert("vk".to_string(), '\u{f189}');
+        m.insert("vnv".to_string(), '\u{f40b}');
+        m.insert("voicemail".to_string(), '\u{f897}');
+        m.insert("volleyball-ball".to_string(), '\u{f45f}');
+        m.insert("volume-down".to_string(), '\u{f027}');
+        m.insert("volume-mute".to_string(), '\u{f6a9}');
+        m.insert("volume-off".to_string(), '\u{f026}');
+        m.insert("volume-up".to_string(), '\u{f028}');
+        m.insert("vote-yea".to_string(), '\u{f772}');
+        m.insert("vr-cardboard".to_string(), '\u{f729}');
+        m.insert("vuejs".to_string(), '\u{f41f}');
+        m.insert("walking".to_string(), '\u{f554}');
+        m.insert("wallet".to_string(), '\u{f555}');
+        m.insert("warehouse".to_string(), '\u{f494}');
+        m.insert("water".to_string(), '\u{f773}');
+        m.insert("wave-square".to_string(), '\u{f83e}');
+        m.insert("waze".to_string(), '\u{f83f}');
+        m.insert("weebly".to_string(), '\u{f5cc}');
+        m.insert("weibo".to_string(), '\u{f18a}');
+        m.insert("weight".to_string(), '\u{f496}');
+        m.insert("weight-hanging".to_string(), '\u{f5cd}');
+        m.insert("weixin".to_string(), '\u{f1d7}');
+        m.insert("whatsapp".to_string(), '\u{f232}');
+        m.insert("whatsapp-square".to_string(), '\u{f40c}');
+        m.insert("wheelchair".to_string(), '\u{f193}');
+        m.insert("whmcs".to_string(), '\u{f40d}');
+        m.insert("wifi".to_string(), '\u{f1eb}');
+        m.insert("wikipedia-w".to_string(), '\u{f266}');
+        m.insert("wind".to_string(), '\u{f72e}');
+        m.insert("window-close".to_string(), '\u{f410}');
+        m.insert("window-maximize".to_string(), '\u{f2d0}');
+        m.insert("window-minimize".to_string(), '\u{f2d1}');
+        m.insert("window-restore".to_string(), '\u{f2d2}');
+        m.insert("windows".to_string(), '\u{f17a}');
+        m.insert("wine-bottle".to_string(), '\u{f72f}');
+        m.insert("wine-glass".to_string(), '\u{f4e3}');
+        m.insert("wine-glass-alt".to_string(), '\u{f5ce}');
+        m.insert("wix".to_string(), '\u{f5cf}');
+        m.insert("wizards-of-the-coast".to_string(), '\u{f730}');
+        m.insert("wolf-pack-battalion".to_string(), '\u{f514}');
+        m.insert("won-sign".to_string(), '\u{f159}');
+        m.insert("wordpress".to_string(), '\u{f19a}');
+        m.insert("wordpress-simple".to_string(), '\u{f411}');
+        m.insert("wpbeginner".to_string(), '\u{f297}');
+        m.insert("wpexplorer".to_string(), '\u{f2de}');
+        m.insert("wpforms".to_string(), '\u{f298}');
+        m.insert("wpressr".to_string(), '\u{f3e4}');
+        m.insert("wrench".to_string(), '\u{f0ad}');
+        m.insert("x-ray".to_string(), '\u{f497}');
+        m.insert("xbox".to_string(), '\u{f412}');
+        m.insert("xing".to_string(), '\u{f168}');
+        m.insert("xing-square".to_string(), '\u{f169}');
+        m.insert("y-combinator".to_string(), '\u{f23b}');
+        m.insert("yahoo".to_string(), '\u{f19e}');
+        m.insert("yammer".to_string(), '\u{f840}');
+        m.insert("yandex".to_string(), '\u{f413}');
+        m.insert("yandex-international".to_string(), '\u{f414}');
+        m.insert("yarn".to_string(), '\u{f7e3}');
+        m.insert("yelp".to_string(), '\u{f1e9}');
+        m.insert("yen-sign".to_string(), '\u{f157}');
+        m.insert("yin-yang".to_string(), '\u{f6ad}');
+        m.insert("yoast".to_string(), '\u{f2b1}');
+        m.insert("youtube".to_string(), '\u{f167}');
+        m.insert("youtube-square".to_string(), '\u{f431}');
+        m.insert("zhihu".to_string(), '\u{f63f}');
+        m
+    };
+}
