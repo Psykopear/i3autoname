@@ -5,11 +5,19 @@ matrix:
   include:
   - os: linux
     rust: stable
-
 script:
-  - cargo build --release --all
+- cargo build --release --all
 addons:
   apt:
     packages:
     - libgtk-3-dev
     - libmount-dev
+deploy:
+  provider: releases
+  api_key:
+    secure: hMLlZdYfBTq3dWE0A6l7CreuxB+EOiJEhTeCkRQFHjySMuZM+I100Cvyr7Zwav0CVAIbsOS8QynBduCQ1WqPu/qbREtD6959L6pKQk3l2iy7Bchfo98N15CdlNiD9GaTEoKTXasLcyJK5g0x9UwVHpGdK7TbTJo0Gx80moTRU3JT5VCPHq6JTR9DdEI0lkNMafyyk1bEVoYuVXJUubLnIOQsfl4OzWIV8B72c60+l/cx5SwSm9k8gIR4frNCpsy3YX+hDHIpORz/jj7cYQA1wfIeazdCfmLFRjFkDiQ7nd6qowPwKINOvUyaVzcIBBTh5FqedJm4vFdhpt+orzzDKWe14uQhvhMFzPQLkbrzAZrrki99l76+JG+p92I0AnYbl+MmgJF+IZpZXPUSRy1RJT2V4YXDa3olqh2lsKjCtPgma8S6qiP9KF4hv+zXJBQ/Fmhs+7C/Qv4X/uEr0RaDnJ2kryBJkTDZxZ08UBOfXvOZp//2qO0XTRSuWx5zGndBGNmbZJl8XNZZquHKgjzLdKSEIKDlg+kW6+zq5T2kXhK8pB7eNuEF4HPdQSPb9eBjBnSHadB/OKxw5raVvb4K826xEmz7vZ348om/WrWdG4yzSeNanbOmuX5Ly1Po1ZdH5t2MT7JJchBWncSWxfzndSx5lxv2uAmCBtDMCYSqdZE=
+  file: "./target/release/i3autoname"
+  skip_cleanup: true
+  on:
+    tags: true
+    repo: Psykopear/i3autoname
