@@ -13,6 +13,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4785bdd1c96b2a846b2bd7cc02e86b6b3dbf14e7e53446c4f54c92a361040822"
 
 [[package]]
+name = "i3autoname"
+version = "0.1.0"
+dependencies = [
+ "i3ipc",
+ "lazy_static",
+]
+
+[[package]]
 name = "i3ipc"
 version = "0.10.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -22,14 +30,6 @@ dependencies = [
  "log",
  "serde",
  "serde_json",
-]
-
-[[package]]
-name = "i3utils"
-version = "0.1.0"
-dependencies = [
- "i3ipc",
- "lazy_static",
 ]
 
 [[package]]
