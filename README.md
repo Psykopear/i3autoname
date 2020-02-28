@@ -5,7 +5,7 @@ This is a Rust port of [autoname_workspace.py from justbuchanan](https://github.
 
 # Usage
 
-Download latest release and save it where you want, eg ~/.local/bin/i3autoname
+Download [latest release](https://github.com/Psykopear/i3autoname/releases) and save it where you want, eg ~/.local/bin/i3autoname
 
 Then run the program when i3 starts. For example add at the end of your `~/.config/i3/config`:
 ```

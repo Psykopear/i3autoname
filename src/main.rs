@@ -78,7 +78,7 @@ fn rename_workspaces() {
                         None => " * ".to_string(),
                     })
                     .collect();
-                let new_name = format!("{}  {}", _ws.num, icons.join(" "));
+                let new_name = format!("{}  {}", _ws.num, icons.join("  "));
                 let command = format!(
                     "rename workspace \"{}\" to \"{}\"",
                     workspace.name.unwrap(),
