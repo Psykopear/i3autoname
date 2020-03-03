@@ -2583,6 +2583,7 @@ lazy_static! {
         m.insert("hot".to_string(), '\u{f134}');
         m.insert("rescue".to_string(), '\u{f134}');
         m.insert("firefox".to_string(), '\u{f269}');
+        m.insert("firefoxdeveloperedition".to_string(), '\u{f269}');
         m.insert("browser".to_string(), '\u{f269}');
         m.insert("firefox-browser".to_string(), '\u{f907}');
         m.insert("browser".to_string(), '\u{f907}');

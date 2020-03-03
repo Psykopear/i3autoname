@@ -93,28 +93,38 @@ fn rename_workspaces() {
 }
 
 fn main() {
-    // First set the correct names for the first time
-    rename_workspaces();
-    // Then listen to window events and update names when necessary
-    let mut listener = I3EventListener::connect().unwrap();
-    let subs = [Subscription::Window];
-    listener.subscribe(&subs).unwrap();
+    // Loop so that when i3 restarts it keeps working
+    // TODO: This might get out of hand, maybe
+    //       add a sleep before restarting?
+    loop {
+        // Then listen to window events and update names when necessary
+        let mut listener = match I3EventListener::connect() {
+            Ok(listener) => listener,
+            Err(_) => continue
+        };
 
-    for event in listener.listen() {
-        match event.unwrap() {
-            Event::WindowEvent(e) => match e.change {
-                WindowChange::New => {
-                    rename_workspaces();
-                }
-                WindowChange::Close => {
-                    rename_workspaces();
-                }
-                WindowChange::Move => {
-                    rename_workspaces();
-                }
-                _ => (),
-            },
-            _ => unreachable!(),
+        let subs = [Subscription::Window];
+        listener.subscribe(&subs).unwrap();
+
+        // First set the correct names for the first time
+        rename_workspaces();
+
+        for event in listener.listen() {
+            match event {
+                Ok(Event::WindowEvent(e)) => match e.change {
+                    WindowChange::New => {
+                        rename_workspaces();
+                    }
+                    WindowChange::Close => {
+                        rename_workspaces();
+                    }
+                    WindowChange::Move => {
+                        rename_workspaces();
+                    }
+                    _ => (),
+                },
+                _ => break,
+            }
         }
     }
 }
